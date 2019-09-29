@@ -1,0 +1,15 @@
+#include <iostream> 
+using namespace std; 
+class A { 
+public :  
+static void test1() { printf("test\n"); };
+public : 
+}; 
+typedef void (*PFunc)(); 
+int main() 
+{  
+PFunc f = &(A::test1);   
+(*f)();  
+ system("PAUSE");  
+ return 0;
+}

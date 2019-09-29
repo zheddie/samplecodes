@@ -1,0 +1,7 @@
+Makefile
+func1.cpp
+func2.cpp
+func3.cpp
+func4.cpp
+zgclasses.hpp
+main.c

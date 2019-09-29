@@ -1,0 +1,1952 @@
+import _frozen_importlib # frozen
+import _imp # builtin
+import sys # builtin
+import '_warnings' # <class '_frozen_importlib.BuiltinImporter'>
+import '_thread' # <class '_frozen_importlib.BuiltinImporter'>
+import '_weakref' # <class '_frozen_importlib.BuiltinImporter'>
+import '_frozen_importlib_external' # <class '_frozen_importlib.FrozenImporter'>
+import '_io' # <class '_frozen_importlib.BuiltinImporter'>
+import 'marshal' # <class '_frozen_importlib.BuiltinImporter'>
+import 'posix' # <class '_frozen_importlib.BuiltinImporter'>
+import _thread # previously loaded ('_thread')
+import '_thread' # <class '_frozen_importlib.BuiltinImporter'>
+import _weakref # previously loaded ('_weakref')
+import '_weakref' # <class '_frozen_importlib.BuiltinImporter'>
+# installing zipimport hook
+import 'zipimport' # <class '_frozen_importlib.BuiltinImporter'>
+# installed zipimport hook
+# /QOpenSys/pkgs/lib/python3.6/encodings/__pycache__/__init__.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/encodings/__init__.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/encodings/__pycache__/__init__.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/codecs.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/codecs.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/codecs.cpython-36.pyc'
+import '_codecs' # <class '_frozen_importlib.BuiltinImporter'>
+import 'codecs' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000000bad30>
+# /QOpenSys/pkgs/lib/python3.6/encodings/__pycache__/aliases.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/encodings/aliases.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/encodings/__pycache__/aliases.cpython-36.pyc'
+import 'encodings.aliases' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000000cf710>
+import 'encodings' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000000ba898>
+# /QOpenSys/pkgs/lib/python3.6/encodings/__pycache__/latin_1.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/encodings/latin_1.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/encodings/__pycache__/latin_1.cpython-36.pyc'
+import 'encodings.latin_1' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000000dd550>
+import '_signal' # <class '_frozen_importlib.BuiltinImporter'>
+# /QOpenSys/pkgs/lib/python3.6/encodings/__pycache__/utf_8.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/encodings/utf_8.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/encodings/__pycache__/utf_8.cpython-36.pyc'
+import 'encodings.utf_8' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000000e30b8>
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/io.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/io.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/io.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/abc.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/abc.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/abc.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/_weakrefset.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/_weakrefset.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/_weakrefset.cpython-36.pyc'
+import '_weakrefset' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000000ea080>
+import 'abc' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000000e36d8>
+import 'io' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000000e3320>
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/_bootlocale.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/_bootlocale.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/_bootlocale.cpython-36.pyc'
+import '_locale' # <class '_frozen_importlib.BuiltinImporter'>
+import '_bootlocale' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000000ee780>
+Python 3.6.5 (default, Apr 26 2018, 15:03:33) 
+[GCC 6.3.0] on aix6
+Type "help", "copyright", "credits" or "license" for more information.
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/site.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/site.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/os.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/os.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/os.cpython-36.pyc'
+import 'errno' # <class '_frozen_importlib.BuiltinImporter'>
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/stat.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/stat.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/stat.cpython-36.pyc'
+import '_stat' # <class '_frozen_importlib.BuiltinImporter'>
+import 'stat' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000010ea58>
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/posixpath.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/posixpath.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/posixpath.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/genericpath.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/genericpath.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/genericpath.cpython-36.pyc'
+import 'genericpath' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000113470>
+import 'posixpath' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000110160>
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/_collections_abc.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/_collections_abc.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/_collections_abc.cpython-36.pyc'
+import '_collections_abc' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000113a90>
+import 'os' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000000fe8d0>
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/_sitebuiltins.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/_sitebuiltins.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/_sitebuiltins.cpython-36.pyc'
+import '_sitebuiltins' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000000fecc0>
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/sysconfig.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/sysconfig.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/sysconfig.cpython-36.pyc'
+import 'sysconfig' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000105208>
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/_sysconfigdata_m_aix6_.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/_sysconfigdata_m_aix6_.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/_sysconfigdata_m_aix6_.cpython-36.pyc'
+import '_sysconfigdata_m_aix6_' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000161438>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/__pycache__/sitecustomize.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/sitecustomize.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/__pycache__/sitecustomize.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/ssl.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/ssl.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/ssl.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/ipaddress.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/ipaddress.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/ipaddress.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/functools.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/functools.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/functools.cpython-36.pyc'
+import '_functools' # <class '_frozen_importlib.BuiltinImporter'>
+# /QOpenSys/pkgs/lib/python3.6/collections/__pycache__/__init__.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/collections/__init__.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/collections/__pycache__/__init__.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/operator.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/operator.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/operator.cpython-36.pyc'
+import '_operator' # <class '_frozen_importlib.BuiltinImporter'>
+import 'operator' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000001d9390>
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/keyword.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/keyword.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/keyword.cpython-36.pyc'
+import 'keyword' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000001e25f8>
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/heapq.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/heapq.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/heapq.cpython-36.pyc'
+# extension module '_heapq' loaded from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/_heapq.so'
+# extension module '_heapq' executed from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/_heapq.so'
+import '_heapq' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7000000001e5320>
+import 'heapq' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000001e2e10>
+import 'itertools' # <class '_frozen_importlib.BuiltinImporter'>
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/reprlib.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/reprlib.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/reprlib.cpython-36.pyc'
+import 'reprlib' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000001e5400>
+import '_collections' # <class '_frozen_importlib.BuiltinImporter'>
+import 'collections' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000001b9a58>
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/types.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/types.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/types.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/collections/__pycache__/abc.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/collections/abc.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/collections/__pycache__/abc.cpython-36.pyc'
+import 'collections.abc' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000001fdda0>
+import 'types' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000001b9e48>
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/weakref.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/weakref.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/weakref.cpython-36.pyc'
+import 'weakref' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000001b9f98>
+import 'functools' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000001ac278>
+import 'ipaddress' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000018e3c8>
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/textwrap.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/textwrap.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/textwrap.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/re.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/re.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/re.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/enum.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/enum.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/enum.cpython-36.pyc'
+import 'enum' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000235d30>
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/sre_compile.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/sre_compile.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/sre_compile.cpython-36.pyc'
+import '_sre' # <class '_frozen_importlib.BuiltinImporter'>
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/sre_parse.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/sre_parse.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/sre_parse.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/sre_constants.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/sre_constants.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/sre_constants.cpython-36.pyc'
+import 'sre_constants' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000258668>
+import 'sre_parse' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000024bd30>
+import 'sre_compile' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000240fd0>
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/copyreg.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/copyreg.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/copyreg.cpython-36.pyc'
+import 'copyreg' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000025b550>
+import 're' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000235048>
+import 'textwrap' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000019bd30>
+# extension module '_socket' loaded from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/_socket.so'
+# extension module '_socket' executed from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/_socket.so'
+import '_socket' # <_frozen_importlib_external.ExtensionFileLoader object at 0x70000000022ef98>
+# extension module '_ssl' loaded from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/_ssl.so'
+# extension module '_ssl' executed from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/_ssl.so'
+import '_ssl' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7000000001ac048>
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/socket.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/socket.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/socket.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/selectors.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/selectors.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/selectors.cpython-36.pyc'
+# extension module 'math' loaded from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/math.so'
+# extension module 'math' executed from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/math.so'
+import 'math' # <_frozen_importlib_external.ExtensionFileLoader object at 0x70000000029bba8>
+# extension module 'select' loaded from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/select.so'
+# extension module 'select' executed from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/select.so'
+import 'select' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7000000002a15c0>
+import 'selectors' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000290da0>
+import 'socket' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000002754e0>
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/base64.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/base64.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/base64.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/struct.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/struct.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/struct.cpython-36.pyc'
+# extension module '_struct' loaded from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/_struct.so'
+# extension module '_struct' executed from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/_struct.so'
+import '_struct' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7000000002a99e8>
+import 'struct' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000002a9898>
+# extension module 'binascii' loaded from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/binascii.so'
+# extension module 'binascii' executed from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/binascii.so'
+import 'binascii' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7000000002a9a58>
+import 'base64' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000275630>
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/warnings.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/warnings.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/warnings.cpython-36.pyc'
+import 'warnings' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000002a9c88>
+import 'ssl' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000016eb00>
+import 'sitecustomize' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000016e9b0>
+# /QOpenSys/pkgs/lib/python3.6/encodings/__pycache__/cp437.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/encodings/cp437.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/encodings/__pycache__/cp437.cpython-36.pyc'
+import 'encodings.cp437' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000002b8f28>
+# zipimport: found 615 names in '/QOpenSys/pkgs/lib/python3.6/site-packages/pytz-2018.4-py3.6.egg'
+# zipimport: found 43 names in '/QOpenSys/pkgs/lib/python3.6/site-packages/python_dateutil-2.7.3-py3.6.egg'
+# zipimport: found 7 names in '/QOpenSys/pkgs/lib/python3.6/site-packages/pyparsing-2.2.0-py3.6.egg'
+# zipimport: found 8 names in '/QOpenSys/pkgs/lib/python3.6/site-packages/cycler-0.10.0-py3.6.egg'
+import 'site' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000000fa630>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/__init__.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__init__.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/__init__.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/__future__.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/__future__.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/__future__.cpython-36.pyc'
+import '__future__' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000333048>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/__pycache__/six.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/six.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/__pycache__/six.cpython-36.pyc'
+import 'six' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000333550>
+import 'atexit' # <class '_frozen_importlib.BuiltinImporter'>
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/contextlib.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/contextlib.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/contextlib.cpython-36.pyc'
+import 'contextlib' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000333f98>
+# /QOpenSys/pkgs/lib/python3.6/distutils/__pycache__/__init__.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/distutils/__init__.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/distutils/__pycache__/__init__.cpython-36.pyc'
+import 'distutils' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000034df60>
+# /QOpenSys/pkgs/lib/python3.6/distutils/__pycache__/version.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/distutils/version.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/distutils/__pycache__/version.cpython-36.pyc'
+import 'distutils.version' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000035f278>
+# /QOpenSys/pkgs/lib/python3.6/distutils/__pycache__/sysconfig.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/distutils/sysconfig.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/distutils/__pycache__/sysconfig.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/distutils/__pycache__/errors.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/distutils/errors.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/distutils/__pycache__/errors.cpython-36.pyc'
+import 'distutils.errors' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000367160>
+import 'distutils.sysconfig' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000035f8d0>
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/inspect.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/inspect.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/inspect.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/ast.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/ast.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/ast.cpython-36.pyc'
+import '_ast' # <class '_frozen_importlib.BuiltinImporter'>
+import 'ast' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000038dd30>
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/dis.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/dis.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/dis.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/opcode.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/opcode.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/opcode.cpython-36.pyc'
+# extension module '_opcode' loaded from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/_opcode.so'
+# extension module '_opcode' executed from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/_opcode.so'
+import '_opcode' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7000000003c1668>
+import 'opcode' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000003b9ef0>
+import 'dis' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000003b7dd8>
+# /QOpenSys/pkgs/lib/python3.6/importlib/__pycache__/__init__.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/importlib/__init__.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/importlib/__pycache__/__init__.cpython-36.pyc'
+import 'importlib' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000003c5828>
+# /QOpenSys/pkgs/lib/python3.6/importlib/__pycache__/machinery.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/importlib/machinery.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/importlib/__pycache__/machinery.cpython-36.pyc'
+import 'importlib.machinery' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000003c56a0>
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/linecache.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/linecache.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/linecache.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/tokenize.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/tokenize.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/tokenize.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/token.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/token.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/token.cpython-36.pyc'
+import 'token' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000003d31d0>
+import 'tokenize' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000003c4d68>
+import 'linecache' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000003c4ef0>
+import 'inspect' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000003671d0>
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/locale.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/locale.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/locale.cpython-36.pyc'
+import 'locale' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000382fd0>
+# /QOpenSys/pkgs/lib/python3.6/logging/__pycache__/__init__.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/logging/__init__.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/logging/__pycache__/__init__.cpython-36.pyc'
+import 'time' # <class '_frozen_importlib.BuiltinImporter'>
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/traceback.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/traceback.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/traceback.cpython-36.pyc'
+import 'traceback' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000042d748>
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/string.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/string.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/string.cpython-36.pyc'
+import '_string' # <class '_frozen_importlib.BuiltinImporter'>
+import 'string' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000431748>
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/threading.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/threading.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/threading.cpython-36.pyc'
+import 'threading' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000431ef0>
+import 'logging' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000410160>
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/shutil.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/shutil.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/shutil.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/fnmatch.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/fnmatch.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/fnmatch.cpython-36.pyc'
+import 'fnmatch' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000046acc0>
+# extension module 'zlib' loaded from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/zlib.so'
+# extension module 'zlib' executed from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/zlib.so'
+import 'zlib' # <_frozen_importlib_external.ExtensionFileLoader object at 0x700000000471048>
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/bz2.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/bz2.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/bz2.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/_compression.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/_compression.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/_compression.cpython-36.pyc'
+import '_compression' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000471cc0>
+# extension module '_bz2' loaded from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/_bz2.so'
+# extension module '_bz2' executed from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/_bz2.so'
+import '_bz2' # <_frozen_importlib_external.ExtensionFileLoader object at 0x70000000047c668>
+import 'bz2' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000004713c8>
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/lzma.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/lzma.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/lzma.cpython-36.pyc'
+# extension module '_lzma' loaded from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/_lzma.so'
+# extension module '_lzma' executed from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/_lzma.so'
+import '_lzma' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7000000004852b0>
+import 'lzma' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000047c828>
+import 'pwd' # <class '_frozen_importlib.BuiltinImporter'>
+# extension module 'grp' loaded from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/grp.so'
+# extension module 'grp' executed from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/grp.so'
+import 'grp' # <_frozen_importlib_external.ExtensionFileLoader object at 0x700000000485630>
+import 'shutil' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000004620b8>
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/tempfile.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/tempfile.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/tempfile.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/random.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/random.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/random.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/hashlib.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/hashlib.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/hashlib.cpython-36.pyc'
+# extension module '_hashlib' loaded from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/_hashlib.so'
+# extension module '_hashlib' executed from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/_hashlib.so'
+import '_hashlib' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7000000004a9748>
+# extension module '_blake2' loaded from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/_blake2.so'
+# extension module '_blake2' executed from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/_blake2.so'
+import '_blake2' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7000000004a9dd8>
+# extension module '_sha3' loaded from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/_sha3.so'
+# extension module '_sha3' executed from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/_sha3.so'
+import '_sha3' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7000000004a9ef0>
+import 'hashlib' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000004a0cf8>
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/bisect.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/bisect.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/bisect.cpython-36.pyc'
+# extension module '_bisect' loaded from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/_bisect.so'
+# extension module '_bisect' executed from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/_bisect.so'
+import '_bisect' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7000000004a9cc0>
+import 'bisect' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000004a9240>
+# extension module '_random' loaded from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/_random.so'
+# extension module '_random' executed from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/_random.so'
+import '_random' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7000000004a9208>
+import 'random' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000497550>
+import 'tempfile' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000462160>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/cbook/__pycache__/__init__.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/cbook/__init__.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/cbook/__pycache__/__init__.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/datetime.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/datetime.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/datetime.cpython-36.pyc'
+# extension module '_datetime' loaded from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/_datetime.so'
+# extension module '_datetime' executed from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/_datetime.so'
+import '_datetime' # <_frozen_importlib_external.ExtensionFileLoader object at 0x700000000502710>
+import 'datetime' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000004d9be0>
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/glob.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/glob.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/glob.cpython-36.pyc'
+import 'glob' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000004d9cc0>
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/gzip.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/gzip.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/gzip.cpython-36.pyc'
+import 'gzip' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000004df0b8>
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/numbers.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/numbers.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/numbers.cpython-36.pyc'
+import 'numbers' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000004e99e8>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/__pycache__/__init__.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/__init__.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/__pycache__/__init__.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/__pycache__/_globals.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/_globals.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/__pycache__/_globals.cpython-36.pyc'
+import 'numpy._globals' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000502470>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/__pycache__/__config__.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/__config__.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/__pycache__/__config__.cpython-36.pyc'
+import 'numpy.__config__' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000005022e8>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/__pycache__/version.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/version.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/__pycache__/version.cpython-36.pyc'
+import 'numpy.version' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000502940>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/__pycache__/_import_tools.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/_import_tools.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/__pycache__/_import_tools.cpython-36.pyc'
+import 'numpy._import_tools' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000005029e8>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/__pycache__/add_newdocs.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/add_newdocs.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/__pycache__/add_newdocs.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/__init__.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__init__.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/__init__.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/info.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/info.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/info.cpython-36.pyc'
+import 'numpy.lib.info' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000005285c0>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/type_check.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/type_check.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/type_check.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/__pycache__/__init__.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/__init__.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/__pycache__/__init__.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/__pycache__/info.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/info.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/__pycache__/info.cpython-36.pyc'
+import 'numpy.core.info' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000052db70>
+# extension module 'numpy.core.multiarray' loaded from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/multiarray.so'
+# extension module 'numpy.core.multiarray' executed from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/multiarray.so'
+import 'numpy.core.multiarray' # <_frozen_importlib_external.ExtensionFileLoader object at 0x70000000052dcc0>
+# extension module 'numpy.core.umath' loaded from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/umath.so'
+# extension module 'numpy.core.umath' executed from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/umath.so'
+import 'numpy.core.umath' # <_frozen_importlib_external.ExtensionFileLoader object at 0x70000000053deb8>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/__pycache__/_internal.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/_internal.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/__pycache__/_internal.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/compat/__pycache__/__init__.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/compat/__init__.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/compat/__pycache__/__init__.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/compat/__pycache__/_inspect.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/compat/_inspect.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/compat/__pycache__/_inspect.cpython-36.pyc'
+import 'numpy.compat._inspect' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000055e898>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/compat/__pycache__/py3k.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/compat/py3k.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/compat/__pycache__/py3k.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/pathlib.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/pathlib.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/pathlib.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/ntpath.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/ntpath.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/ntpath.cpython-36.pyc'
+import 'ntpath' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000057a908>
+# /QOpenSys/pkgs/lib/python3.6/urllib/__pycache__/__init__.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/urllib/__init__.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/urllib/__pycache__/__init__.cpython-36.pyc'
+import 'urllib' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000005866a0>
+# /QOpenSys/pkgs/lib/python3.6/urllib/__pycache__/parse.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/urllib/parse.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/urllib/__pycache__/parse.cpython-36.pyc'
+import 'urllib.parse' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000586710>
+import 'pathlib' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000567898>
+import 'numpy.compat.py3k' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000055ef28>
+import 'numpy.compat' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000055e4e0>
+# /QOpenSys/pkgs/lib/python3.6/ctypes/__pycache__/__init__.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/ctypes/__init__.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/ctypes/__pycache__/__init__.cpython-36.pyc'
+# extension module '_ctypes' loaded from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/_ctypes.so'
+# extension module '_ctypes' executed from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/_ctypes.so'
+import '_ctypes' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7000000005b2710>
+# /QOpenSys/pkgs/lib/python3.6/ctypes/__pycache__/_endian.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/ctypes/_endian.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/ctypes/__pycache__/_endian.cpython-36.pyc'
+import 'ctypes._endian' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000005c6780>
+import 'ctypes' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000055e5f8>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/__pycache__/numerictypes.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/numerictypes.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/__pycache__/numerictypes.cpython-36.pyc'
+import 'numpy.core.numerictypes' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000056ba20>
+import 'numpy.core._internal' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000005515f8>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/__pycache__/numeric.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/numeric.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/__pycache__/numeric.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/pickle.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/pickle.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/pickle.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/_compat_pickle.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/_compat_pickle.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/_compat_pickle.cpython-36.pyc'
+import '_compat_pickle' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000005f8c18>
+# extension module '_pickle' loaded from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/_pickle.so'
+# extension module '_pickle' executed from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/_pickle.so'
+import '_pickle' # <_frozen_importlib_external.ExtensionFileLoader object at 0x700000000601470>
+import 'pickle' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000005e2908>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/__pycache__/fromnumeric.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/fromnumeric.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/__pycache__/fromnumeric.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/__pycache__/_methods.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/_methods.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/__pycache__/_methods.cpython-36.pyc'
+import 'numpy.core._methods' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000613c18>
+import 'numpy.core.fromnumeric' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000005f89b0>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/__pycache__/arrayprint.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/arrayprint.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/__pycache__/arrayprint.cpython-36.pyc'
+import 'numpy.core.arrayprint' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000613b70>
+import 'numpy.core.numeric' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000004e97b8>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/__pycache__/defchararray.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/defchararray.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/__pycache__/defchararray.cpython-36.pyc'
+import 'numpy.core.defchararray' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000005e2be0>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/__pycache__/records.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/records.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/__pycache__/records.cpython-36.pyc'
+import 'numpy.core.records' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000006454e0>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/__pycache__/memmap.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/memmap.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/__pycache__/memmap.cpython-36.pyc'
+import 'numpy.core.memmap' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000006514e0>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/__pycache__/function_base.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/function_base.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/__pycache__/function_base.cpython-36.pyc'
+import 'numpy.core.function_base' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000651908>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/__pycache__/machar.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/machar.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/__pycache__/machar.cpython-36.pyc'
+import 'numpy.core.machar' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000651c18>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/__pycache__/getlimits.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/getlimits.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/__pycache__/getlimits.cpython-36.pyc'
+import 'numpy.core.getlimits' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000065c358>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/__pycache__/shape_base.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/shape_base.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/__pycache__/shape_base.cpython-36.pyc'
+import 'numpy.core.shape_base' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000660470>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/__pycache__/einsumfunc.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/einsumfunc.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/core/__pycache__/einsumfunc.cpython-36.pyc'
+import 'numpy.core.einsumfunc' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000660c88>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/testing/__pycache__/__init__.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/testing/__init__.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/testing/__pycache__/__init__.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/unittest/__pycache__/__init__.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/unittest/__init__.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/unittest/__pycache__/__init__.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/unittest/__pycache__/result.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/unittest/result.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/unittest/__pycache__/result.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/unittest/__pycache__/util.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/unittest/util.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/unittest/__pycache__/util.cpython-36.pyc'
+import 'unittest.util' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000673400>
+import 'unittest.result' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000669e48>
+# /QOpenSys/pkgs/lib/python3.6/unittest/__pycache__/case.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/unittest/case.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/unittest/__pycache__/case.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/difflib.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/difflib.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/difflib.cpython-36.pyc'
+import 'difflib' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000006937f0>
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/pprint.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/pprint.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/pprint.cpython-36.pyc'
+import 'pprint' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000006a1a20>
+import 'unittest.case' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000673390>
+# /QOpenSys/pkgs/lib/python3.6/unittest/__pycache__/suite.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/unittest/suite.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/unittest/__pycache__/suite.cpython-36.pyc'
+import 'unittest.suite' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000006cd710>
+# /QOpenSys/pkgs/lib/python3.6/unittest/__pycache__/loader.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/unittest/loader.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/unittest/__pycache__/loader.cpython-36.pyc'
+import 'unittest.loader' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000006cdf60>
+# /QOpenSys/pkgs/lib/python3.6/unittest/__pycache__/main.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/unittest/main.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/unittest/__pycache__/main.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/argparse.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/argparse.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/argparse.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/copy.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/copy.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/copy.cpython-36.pyc'
+import 'copy' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000006f20f0>
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/gettext.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/gettext.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/gettext.cpython-36.pyc'
+import 'gettext' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000006f24e0>
+import 'argparse' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000006d3208>
+# /QOpenSys/pkgs/lib/python3.6/unittest/__pycache__/runner.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/unittest/runner.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/unittest/__pycache__/runner.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/unittest/__pycache__/signals.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/unittest/signals.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/unittest/__pycache__/signals.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/signal.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/signal.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/signal.cpython-36.pyc'
+import 'signal' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000716160>
+import 'unittest.signals' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000704c18>
+import 'unittest.runner' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000704588>
+import 'unittest.main' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000006c5b00>
+import 'unittest' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000006699e8>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/testing/__pycache__/decorators.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/testing/decorators.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/testing/__pycache__/decorators.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/testing/nose_tools/__pycache__/__init__.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/testing/nose_tools/__init__.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/testing/nose_tools/__pycache__/__init__.cpython-36.pyc'
+import 'numpy.testing.nose_tools' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000716240>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/testing/nose_tools/__pycache__/decorators.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/testing/nose_tools/decorators.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/testing/nose_tools/__pycache__/decorators.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/testing/nose_tools/__pycache__/utils.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/testing/nose_tools/utils.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/testing/nose_tools/__pycache__/utils.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/utils.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/utils.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/utils.cpython-36.pyc'
+import 'numpy.lib.utils' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000731780>
+import 'numpy.testing.nose_tools.utils' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000007232e8>
+import 'numpy.testing.nose_tools.decorators' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000716208>
+import 'numpy.testing.decorators' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000006d9c88>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/testing/__pycache__/nosetester.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/testing/nosetester.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/testing/__pycache__/nosetester.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/testing/nose_tools/__pycache__/nosetester.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/testing/nose_tools/nosetester.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/testing/nose_tools/__pycache__/nosetester.cpython-36.pyc'
+import 'numpy.testing.nose_tools.nosetester' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000723240>
+import 'numpy.testing.nosetester' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000006d3160>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/testing/__pycache__/utils.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/testing/utils.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/testing/__pycache__/utils.cpython-36.pyc'
+import 'numpy.testing.utils' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000073e978>
+import 'numpy.testing' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000006698d0>
+import 'numpy.core' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000052d240>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/ufunclike.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/ufunclike.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/ufunclike.cpython-36.pyc'
+import 'numpy.lib.ufunclike' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000052d128>
+import 'numpy.lib.type_check' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000528550>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/index_tricks.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/index_tricks.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/index_tricks.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/function_base.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/function_base.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/function_base.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/twodim_base.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/twodim_base.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/twodim_base.cpython-36.pyc'
+import 'numpy.lib.twodim_base' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000761b00>
+import 'numpy.lib.function_base' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000074e6a0>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/matrixlib/__pycache__/__init__.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/matrixlib/__init__.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/matrixlib/__pycache__/__init__.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/matrixlib/__pycache__/defmatrix.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/matrixlib/defmatrix.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/matrixlib/__pycache__/defmatrix.cpython-36.pyc'
+import 'numpy.matrixlib.defmatrix' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000769358>
+import 'numpy.matrixlib' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000007619e8>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/stride_tricks.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/stride_tricks.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/stride_tricks.cpython-36.pyc'
+import 'numpy.lib.stride_tricks' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000007752e8>
+import 'numpy.lib.index_tricks' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000651b00>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/mixins.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/mixins.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/mixins.cpython-36.pyc'
+import 'numpy.lib.mixins' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000007758d0>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/nanfunctions.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/nanfunctions.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/nanfunctions.cpython-36.pyc'
+import 'numpy.lib.nanfunctions' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000077cc50>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/shape_base.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/shape_base.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/shape_base.cpython-36.pyc'
+import 'numpy.lib.shape_base' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000007825c0>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/scimath.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/scimath.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/scimath.cpython-36.pyc'
+import 'numpy.lib.scimath' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000782eb8>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/polynomial.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/polynomial.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/polynomial.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/linalg/__pycache__/__init__.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/linalg/__init__.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/linalg/__pycache__/__init__.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/linalg/__pycache__/info.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/linalg/info.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/linalg/__pycache__/info.cpython-36.pyc'
+import 'numpy.linalg.info' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000791eb8>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/linalg/__pycache__/linalg.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/linalg/linalg.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/linalg/__pycache__/linalg.cpython-36.pyc'
+# extension module 'numpy.linalg.lapack_lite' loaded from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/linalg/lapack_lite.so'
+# extension module 'numpy.linalg.lapack_lite' executed from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/linalg/lapack_lite.so'
+import 'numpy.linalg.lapack_lite' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7000000007a12e8>
+# extension module 'numpy.linalg._umath_linalg' loaded from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/linalg/_umath_linalg.so'
+# extension module 'numpy.linalg._umath_linalg' executed from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/linalg/_umath_linalg.so'
+import 'numpy.linalg._umath_linalg' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7000000007a1438>
+import 'numpy.linalg.linalg' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000791f28>
+import 'numpy.linalg' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000791ba8>
+import 'numpy.lib.polynomial' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000078b5c0>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/arraysetops.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/arraysetops.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/arraysetops.cpython-36.pyc'
+import 'numpy.lib.arraysetops' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000791ac8>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/npyio.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/npyio.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/npyio.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/format.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/format.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/format.cpython-36.pyc'
+import 'numpy.lib.format' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000007baa58>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/_datasource.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/_datasource.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/_datasource.cpython-36.pyc'
+import 'numpy.lib._datasource' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000007c21d0>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/_iotools.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/_iotools.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/_iotools.cpython-36.pyc'
+import 'numpy.lib._iotools' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000007c2eb8>
+import 'numpy.lib.npyio' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000007a1940>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/financial.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/financial.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/financial.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/decimal.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/decimal.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/decimal.cpython-36.pyc'
+# extension module '_decimal' loaded from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/_decimal.so'
+# extension module '_decimal' executed from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/_decimal.so'
+import '_decimal' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7000000007d6be0>
+import 'decimal' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000007d6978>
+import 'numpy.lib.financial' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000007cb860>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/arrayterator.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/arrayterator.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/arrayterator.cpython-36.pyc'
+import 'numpy.lib.arrayterator' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000007d6a20>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/arraypad.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/arraypad.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/arraypad.cpython-36.pyc'
+import 'numpy.lib.arraypad' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000007dffd0>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/_version.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/_version.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/lib/__pycache__/_version.cpython-36.pyc'
+import 'numpy.lib._version' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000007f2e10>
+import 'numpy.lib' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000005280f0>
+import 'numpy.add_newdocs' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000005194e0>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/__pycache__/_distributor_init.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/_distributor_init.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/__pycache__/_distributor_init.cpython-36.pyc'
+import 'numpy._distributor_init' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000519fd0>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/fft/__pycache__/__init__.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/fft/__init__.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/fft/__pycache__/__init__.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/fft/__pycache__/info.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/fft/info.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/fft/__pycache__/info.cpython-36.pyc'
+import 'numpy.fft.info' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000007f8588>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/fft/__pycache__/fftpack.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/fft/fftpack.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/fft/__pycache__/fftpack.cpython-36.pyc'
+# extension module 'numpy.fft.fftpack_lite' loaded from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/fft/fftpack_lite.so'
+# extension module 'numpy.fft.fftpack_lite' executed from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/fft/fftpack_lite.so'
+import 'numpy.fft.fftpack_lite' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7000000007f8f28>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/fft/__pycache__/helper.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/fft/helper.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/fft/__pycache__/helper.cpython-36.pyc'
+import 'numpy.fft.helper' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000081a0f0>
+import 'numpy.fft.fftpack' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000007f85f8>
+import 'numpy.fft' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000007f8390>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/polynomial/__pycache__/__init__.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/polynomial/__init__.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/polynomial/__pycache__/__init__.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/polynomial/__pycache__/polynomial.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/polynomial/polynomial.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/polynomial/__pycache__/polynomial.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/polynomial/__pycache__/polyutils.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/polynomial/polyutils.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/polynomial/__pycache__/polyutils.cpython-36.pyc'
+import 'numpy.polynomial.polyutils' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000820c50>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/polynomial/__pycache__/_polybase.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/polynomial/_polybase.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/polynomial/__pycache__/_polybase.cpython-36.pyc'
+import 'numpy.polynomial._polybase' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000820d30>
+import 'numpy.polynomial.polynomial' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000081a828>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/polynomial/__pycache__/chebyshev.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/polynomial/chebyshev.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/polynomial/__pycache__/chebyshev.cpython-36.pyc'
+import 'numpy.polynomial.chebyshev' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000082cba8>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/polynomial/__pycache__/legendre.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/polynomial/legendre.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/polynomial/__pycache__/legendre.cpython-36.pyc'
+import 'numpy.polynomial.legendre' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000083e080>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/polynomial/__pycache__/hermite.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/polynomial/hermite.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/polynomial/__pycache__/hermite.cpython-36.pyc'
+import 'numpy.polynomial.hermite' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000847278>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/polynomial/__pycache__/hermite_e.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/polynomial/hermite_e.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/polynomial/__pycache__/hermite_e.cpython-36.pyc'
+import 'numpy.polynomial.hermite_e' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000084f2e8>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/polynomial/__pycache__/laguerre.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/polynomial/laguerre.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/polynomial/__pycache__/laguerre.cpython-36.pyc'
+import 'numpy.polynomial.laguerre' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000856128>
+import 'numpy.polynomial' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000081a550>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/random/__pycache__/__init__.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/random/__init__.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/random/__pycache__/__init__.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/random/__pycache__/info.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/random/info.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/random/__pycache__/info.cpython-36.pyc'
+import 'numpy.random.info' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000085b4a8>
+# extension module 'numpy.random.mtrand' loaded from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/random/mtrand.so'
+# extension module 'numpy.random.mtrand' executed from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/random/mtrand.so'
+import 'numpy.random.mtrand' # <_frozen_importlib_external.ExtensionFileLoader object at 0x70000000085b710>
+import 'numpy.random' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000085b278>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/__pycache__/ctypeslib.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/ctypeslib.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/__pycache__/ctypeslib.cpython-36.pyc'
+import 'numpy.ctypeslib' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000864940>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/ma/__pycache__/__init__.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/ma/__init__.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/ma/__pycache__/__init__.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/ma/__pycache__/core.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/ma/core.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/ma/__pycache__/core.cpython-36.pyc'
+import 'numpy.ma.core' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000086ca58>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/ma/__pycache__/extras.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/numpy/ma/extras.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/numpy/ma/__pycache__/extras.cpython-36.pyc'
+import 'numpy.ma.extras' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000086cf28>
+import 'numpy.ma' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000086c6d8>
+import 'numpy' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000004f8748>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/cbook/__pycache__/deprecation.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/cbook/deprecation.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/cbook/__pycache__/deprecation.cpython-36.pyc'
+import 'matplotlib.cbook.deprecation' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000519ef0>
+import 'matplotlib.cbook' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000004ae2e8>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/cbook/__pycache__/_backports.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/cbook/_backports.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/cbook/__pycache__/_backports.cpython-36.pyc'
+import 'matplotlib.cbook._backports' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000004aee80>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/compat/__pycache__/__init__.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/compat/__init__.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/compat/__pycache__/__init__.cpython-36.pyc'
+import 'matplotlib.compat' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000008daac8>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/compat/__pycache__/subprocess.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/compat/subprocess.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/compat/__pycache__/subprocess.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/subprocess.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/subprocess.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/subprocess.cpython-36.pyc'
+# extension module '_posixsubprocess' loaded from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/_posixsubprocess.so'
+# extension module '_posixsubprocess' executed from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/_posixsubprocess.so'
+import '_posixsubprocess' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7000000009042e8>
+import 'subprocess' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000008dad68>
+import 'matplotlib.compat.subprocess' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000008dab70>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/rcsetup.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/rcsetup.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/rcsetup.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/testing/__pycache__/__init__.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/testing/__init__.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/testing/__pycache__/__init__.cpython-36.pyc'
+import 'matplotlib.testing' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000916518>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/fontconfig_pattern.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/fontconfig_pattern.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/fontconfig_pattern.cpython-36.pyc'
+# zipimport: zlib available
+# zipimport: zlib available
+# zipimport: zlib available
+import pyparsing # loaded from Zip /QOpenSys/pkgs/lib/python3.6/site-packages/pyparsing-2.2.0-py3.6.egg/pyparsing.py
+import 'matplotlib.fontconfig_pattern' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000009166a0>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/colors.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/colors.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/colors.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/_color_data.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/_color_data.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/_color_data.cpython-36.pyc'
+import 'matplotlib._color_data' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000105efd0>
+import 'matplotlib.colors' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000099f898>
+# zipimport: zlib available
+# zipimport: zlib available
+import cycler # loaded from Zip /QOpenSys/pkgs/lib/python3.6/site-packages/cycler-0.10.0-py3.6.egg/cycler.py
+import 'matplotlib.rcsetup' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000008f6390>
+# /QOpenSys/pkgs/lib/python3.6/urllib/__pycache__/request.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/urllib/request.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/urllib/__pycache__/request.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/email/__pycache__/__init__.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/email/__init__.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/email/__pycache__/__init__.cpython-36.pyc'
+import 'email' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000a15710>
+# /QOpenSys/pkgs/lib/python3.6/http/__pycache__/__init__.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/http/__init__.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/http/__pycache__/__init__.cpython-36.pyc'
+import 'http' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000a159b0>
+# /QOpenSys/pkgs/lib/python3.6/http/__pycache__/client.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/http/client.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/http/__pycache__/client.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/email/__pycache__/parser.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/email/parser.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/email/__pycache__/parser.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/email/__pycache__/feedparser.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/email/feedparser.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/email/__pycache__/feedparser.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/email/__pycache__/errors.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/email/errors.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/email/__pycache__/errors.cpython-36.pyc'
+import 'email.errors' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000a3fc18>
+# /QOpenSys/pkgs/lib/python3.6/email/__pycache__/_policybase.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/email/_policybase.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/email/__pycache__/_policybase.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/email/__pycache__/header.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/email/header.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/email/__pycache__/header.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/email/__pycache__/quoprimime.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/email/quoprimime.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/email/__pycache__/quoprimime.cpython-36.pyc'
+import 'email.quoprimime' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000009d60f0>
+# /QOpenSys/pkgs/lib/python3.6/email/__pycache__/base64mime.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/email/base64mime.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/email/__pycache__/base64mime.cpython-36.pyc'
+import 'email.base64mime' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000009de198>
+# /QOpenSys/pkgs/lib/python3.6/email/__pycache__/charset.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/email/charset.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/email/__pycache__/charset.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/email/__pycache__/encoders.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/email/encoders.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/email/__pycache__/encoders.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/quopri.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/quopri.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/quopri.cpython-36.pyc'
+import 'quopri' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000009e7390>
+import 'email.encoders' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000009def98>
+import 'email.charset' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000009de400>
+import 'email.header' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000009c8f98>
+# /QOpenSys/pkgs/lib/python3.6/email/__pycache__/utils.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/email/utils.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/email/__pycache__/utils.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/email/__pycache__/_parseaddr.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/email/_parseaddr.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/email/__pycache__/_parseaddr.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/calendar.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/calendar.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/calendar.cpython-36.pyc'
+import 'calendar' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000009f66d8>
+import 'email._parseaddr' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000009ef160>
+import 'email.utils' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000009d2e48>
+import 'email._policybase' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000a3fcc0>
+import 'email.feedparser' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000a33e80>
+import 'email.parser' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000a337b8>
+# /QOpenSys/pkgs/lib/python3.6/email/__pycache__/message.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/email/message.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/email/__pycache__/message.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/uu.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/uu.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/uu.cpython-36.pyc'
+import 'uu' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000a5ff60>
+# /QOpenSys/pkgs/lib/python3.6/email/__pycache__/_encoded_words.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/email/_encoded_words.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/email/__pycache__/_encoded_words.cpython-36.pyc'
+import 'email._encoded_words' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000a68160>
+# /QOpenSys/pkgs/lib/python3.6/email/__pycache__/iterators.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/email/iterators.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/email/__pycache__/iterators.cpython-36.pyc'
+import 'email.iterators' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000a687b8>
+import 'email.message' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000a33e10>
+import 'http.client' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000a15da0>
+# /QOpenSys/pkgs/lib/python3.6/urllib/__pycache__/error.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/urllib/error.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/urllib/__pycache__/error.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/urllib/__pycache__/response.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/urllib/response.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/urllib/__pycache__/response.cpython-36.pyc'
+import 'urllib.response' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000a75240>
+import 'urllib.error' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000a33470>
+import 'urllib.request' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000096de80>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/_version.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/_version.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/_version.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/json/__pycache__/__init__.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/json/__init__.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/json/__pycache__/__init__.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/json/__pycache__/decoder.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/json/decoder.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/json/__pycache__/decoder.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/json/__pycache__/scanner.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/json/scanner.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/json/__pycache__/scanner.cpython-36.pyc'
+# extension module '_json' loaded from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/_json.so'
+# extension module '_json' executed from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/_json.so'
+import '_json' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7000000010544a8>
+import 'json.scanner' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000916710>
+import 'json.decoder' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000009b3080>
+# /QOpenSys/pkgs/lib/python3.6/json/__pycache__/encoder.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/json/encoder.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/json/__pycache__/encoder.cpython-36.pyc'
+import 'json.encoder' # <_frozen_importlib_external.SourceFileLoader object at 0x700000001047fd0>
+import 'json' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000a15278>
+import 'matplotlib._version' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000097e240>
+# zipimport: zlib available
+# zipimport: zlib available
+# zipimport: zlib available
+# zipimport: zlib available
+import dateutil._version # loaded from Zip /QOpenSys/pkgs/lib/python3.6/site-packages/python_dateutil-2.7.3-py3.6.egg/dateutil/_version.py
+import dateutil # loaded from Zip /QOpenSys/pkgs/lib/python3.6/site-packages/python_dateutil-2.7.3-py3.6.egg/dateutil/__init__.py
+import 'matplotlib' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000003211d0>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/pyplot.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/pyplot.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/pyplot.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/colorbar.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/colorbar.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/colorbar.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/artist.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/artist.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/artist.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/docstring.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/docstring.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/docstring.cpython-36.pyc'
+import 'matplotlib.docstring' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000adeeb8>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/path.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/path.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/path.cpython-36.pyc'
+# extension module 'matplotlib._path' loaded from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/_path.so'
+# extension module 'matplotlib._path' executed from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/_path.so'
+import 'matplotlib._path' # <_frozen_importlib_external.ExtensionFileLoader object at 0x700000000aecef0>
+import 'matplotlib.path' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000ae5668>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/transforms.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/transforms.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/transforms.cpython-36.pyc'
+import 'matplotlib.transforms' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000af7278>
+import 'matplotlib.artist' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000ad12b0>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/collections.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/collections.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/collections.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/cm.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/cm.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/cm.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/_cm.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/_cm.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/_cm.cpython-36.pyc'
+import 'matplotlib._cm' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000b54898>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/_cm_listed.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/_cm_listed.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/_cm_listed.cpython-36.pyc'
+import 'matplotlib._cm_listed' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000b65518>
+import 'matplotlib.cm' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000b4aeb8>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/lines.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/lines.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/lines.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/markers.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/markers.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/markers.cpython-36.pyc'
+import 'matplotlib.markers' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000c3a400>
+import 'matplotlib.lines' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000c21828>
+import 'matplotlib.collections' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000b10e80>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/contour.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/contour.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/contour.cpython-36.pyc'
+# extension module 'matplotlib._contour' loaded from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/_contour.so'
+# extension module 'matplotlib._contour' executed from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/_contour.so'
+import 'matplotlib._contour' # <_frozen_importlib_external.ExtensionFileLoader object at 0x700000000c61ef0>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/ticker.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/ticker.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/ticker.cpython-36.pyc'
+import 'matplotlib.ticker' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000c6f048>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/font_manager.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/font_manager.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/font_manager.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/afm.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/afm.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/afm.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/_mathtext_data.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/_mathtext_data.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/_mathtext_data.cpython-36.pyc'
+import 'matplotlib._mathtext_data' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000cb6978>
+import 'matplotlib.afm' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000cab828>
+# extension module 'matplotlib.ft2font' loaded from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/ft2font.so'
+# extension module 'matplotlib.ft2font' executed from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/ft2font.so'
+import 'matplotlib.ft2font' # <_frozen_importlib_external.ExtensionFileLoader object at 0x700000000ce1eb8>
+import 'matplotlib.font_manager' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000c99438>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/text.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/text.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/text.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/patches.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/patches.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/patches.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/bezier.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/bezier.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/bezier.cpython-36.pyc'
+import 'matplotlib.bezier' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000d77ac8>
+import 'matplotlib.patches' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000d2e550>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/textpath.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/textpath.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/textpath.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/mathtext.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/mathtext.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/mathtext.cpython-36.pyc'
+# extension module 'unicodedata' loaded from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/unicodedata.so'
+# extension module 'unicodedata' executed from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/unicodedata.so'
+import 'unicodedata' # <_frozen_importlib_external.ExtensionFileLoader object at 0x700000000dc9fd0>
+# extension module 'matplotlib._png' loaded from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/_png.so'
+# extension module 'matplotlib._png' executed from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/_png.so'
+import 'matplotlib._png' # <_frozen_importlib_external.ExtensionFileLoader object at 0x700000000dd3240>
+import 'matplotlib.mathtext' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000d96438>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/dviread.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/dviread.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/dviread.cpython-36.pyc'
+import 'matplotlib.dviread' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000da4e10>
+import 'matplotlib.textpath' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000d979b0>
+import 'matplotlib.text' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000cab4a8>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/texmanager.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/texmanager.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/texmanager.cpython-36.pyc'
+import 'matplotlib.texmanager' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000df64e0>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/blocking_input.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/blocking_input.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/blocking_input.cpython-36.pyc'
+import 'matplotlib.blocking_input' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000dfcba8>
+import 'matplotlib.contour' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000c502e8>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/gridspec.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/gridspec.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/gridspec.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/_pylab_helpers.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/_pylab_helpers.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/_pylab_helpers.cpython-36.pyc'
+import 'gc' # <class '_frozen_importlib.BuiltinImporter'>
+import 'matplotlib._pylab_helpers' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000e2db00>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/tight_layout.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/tight_layout.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/tight_layout.cpython-36.pyc'
+import 'matplotlib.tight_layout' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000e34208>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/_layoutbox.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/_layoutbox.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/_layoutbox.cpython-36.pyc'
+# extension module 'kiwisolver' loaded from '/QOpenSys/pkgs/lib/python3.6/site-packages/kiwisolver-1.0.1-py3.6-os400-powerpc64.egg/kiwisolver.so'
+# extension module 'kiwisolver' executed from '/QOpenSys/pkgs/lib/python3.6/site-packages/kiwisolver-1.0.1-py3.6-os400-powerpc64.egg/kiwisolver.so'
+import 'kiwisolver' # <_frozen_importlib_external.ExtensionFileLoader object at 0x700000000e46550>
+import 'matplotlib._layoutbox' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000e34e48>
+import 'matplotlib.gridspec' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000e19b38>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/_constrained_layout.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/_constrained_layout.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/_constrained_layout.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/legend.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/legend.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/legend.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/offsetbox.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/offsetbox.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/offsetbox.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/image.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/image.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/image.cpython-36.pyc'
+# extension module 'matplotlib._image' loaded from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/_image.so'
+# extension module 'matplotlib._image' executed from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/_image.so'
+import 'matplotlib._image' # <_frozen_importlib_external.ExtensionFileLoader object at 0x700000000e91080>
+import 'matplotlib.image' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000e75dd8>
+import 'matplotlib.offsetbox' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000e59b38>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/container.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/container.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/container.cpython-36.pyc'
+import 'matplotlib.container' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000e75b00>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/legend_handler.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/legend_handler.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/legend_handler.cpython-36.pyc'
+import 'matplotlib.legend_handler' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000e91550>
+import 'matplotlib.legend' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000e51588>
+import 'matplotlib._constrained_layout' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000e46438>
+import 'matplotlib.colorbar' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000ac0940>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/style/__pycache__/__init__.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/style/__init__.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/style/__pycache__/__init__.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/style/__pycache__/core.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/style/core.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/style/__pycache__/core.cpython-36.pyc'
+import 'matplotlib.style.core' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000eae630>
+import 'matplotlib.style' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000eae4a8>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/backend_bases.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/backend_bases.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/backend_bases.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/backend_tools.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/backend_tools.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/backend_tools.cpython-36.pyc'
+import 'matplotlib.backend_tools' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000f10be0>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/tight_bbox.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/tight_bbox.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/tight_bbox.cpython-36.pyc'
+import 'matplotlib.tight_bbox' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000f26d68>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/widgets.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/widgets.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/widgets.cpython-36.pyc'
+import 'matplotlib.widgets' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000f26f98>
+import 'matplotlib.backend_bases' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000e514e0>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/figure.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/figure.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/figure.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/axes/__pycache__/__init__.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/axes/__init__.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/axes/__pycache__/__init__.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/axes/__pycache__/_subplots.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/axes/_subplots.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/axes/__pycache__/_subplots.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/axes/__pycache__/_axes.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/axes/_axes.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/axes/__pycache__/_axes.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/category.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/category.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/category.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/units.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/units.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/units.cpython-36.pyc'
+import 'matplotlib.units' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000010a02b0>
+import 'matplotlib.category' # <_frozen_importlib_external.SourceFileLoader object at 0x700000001099ba8>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/dates.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/dates.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/dates.cpython-36.pyc'
+# zipimport: zlib available
+# zipimport: zlib available
+# zipimport: zlib available
+# zipimport: zlib available
+import dateutil._common # loaded from Zip /QOpenSys/pkgs/lib/python3.6/site-packages/python_dateutil-2.7.3-py3.6.egg/dateutil/_common.py
+# zipimport: zlib available
+# zipimport: zlib available
+# zipimport: zlib available
+# zipimport: zlib available
+# zipimport: zlib available
+# zipimport: zlib available
+import dateutil.tz._common # loaded from Zip /QOpenSys/pkgs/lib/python3.6/site-packages/python_dateutil-2.7.3-py3.6.egg/dateutil/tz/_common.py
+# zipimport: zlib available
+# zipimport: zlib available
+import dateutil.tz._factories # loaded from Zip /QOpenSys/pkgs/lib/python3.6/site-packages/python_dateutil-2.7.3-py3.6.egg/dateutil/tz/_factories.py
+# zipimport: zlib available
+# zipimport: zlib available
+# destroy dateutil.tz.win
+import dateutil.tz.tz # loaded from Zip /QOpenSys/pkgs/lib/python3.6/site-packages/python_dateutil-2.7.3-py3.6.egg/dateutil/tz/tz.py
+import dateutil.tz # loaded from Zip /QOpenSys/pkgs/lib/python3.6/site-packages/python_dateutil-2.7.3-py3.6.egg/dateutil/tz/__init__.py
+import dateutil.rrule # loaded from Zip /QOpenSys/pkgs/lib/python3.6/site-packages/python_dateutil-2.7.3-py3.6.egg/dateutil/rrule.py
+# zipimport: zlib available
+# zipimport: zlib available
+import dateutil.relativedelta # loaded from Zip /QOpenSys/pkgs/lib/python3.6/site-packages/python_dateutil-2.7.3-py3.6.egg/dateutil/relativedelta.py
+# zipimport: zlib available
+# zipimport: zlib available
+# zipimport: zlib available
+# zipimport: zlib available
+import dateutil.parser._parser # loaded from Zip /QOpenSys/pkgs/lib/python3.6/site-packages/python_dateutil-2.7.3-py3.6.egg/dateutil/parser/_parser.py
+# zipimport: zlib available
+# zipimport: zlib available
+import dateutil.parser.isoparser # loaded from Zip /QOpenSys/pkgs/lib/python3.6/site-packages/python_dateutil-2.7.3-py3.6.egg/dateutil/parser/isoparser.py
+import dateutil.parser # loaded from Zip /QOpenSys/pkgs/lib/python3.6/site-packages/python_dateutil-2.7.3-py3.6.egg/dateutil/parser/__init__.py
+import 'matplotlib.dates' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000010a0828>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/mlab.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/mlab.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/mlab.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/__pycache__/csv.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/csv.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/__pycache__/csv.cpython-36.pyc'
+# extension module '_csv' loaded from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/_csv.so'
+# extension module '_csv' executed from '/QOpenSys/pkgs/lib/python3.6/lib-dynload/_csv.so'
+import '_csv' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7000000012d5c18>
+import 'csv' # <_frozen_importlib_external.SourceFileLoader object at 0x70000000133ff28>
+import 'matplotlib.mlab' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000013308d0>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/quiver.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/quiver.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/quiver.cpython-36.pyc'
+import 'matplotlib.quiver' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000013343c8>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/stackplot.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/stackplot.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/stackplot.cpython-36.pyc'
+import 'matplotlib.stackplot' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000012e4fd0>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/streamplot.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/streamplot.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/streamplot.cpython-36.pyc'
+import 'matplotlib.streamplot' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000012f9128>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/table.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/table.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/table.cpython-36.pyc'
+import 'matplotlib.table' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000012f9e10>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/tri/__pycache__/__init__.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/tri/__init__.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/tri/__pycache__/__init__.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/tri/__pycache__/triangulation.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/tri/triangulation.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/tri/__pycache__/triangulation.cpython-36.pyc'
+# extension module 'matplotlib._tri' loaded from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/_tri.so'
+# extension module 'matplotlib._tri' executed from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/_tri.so'
+import 'matplotlib._tri' # <_frozen_importlib_external.ExtensionFileLoader object at 0x700000001204668>
+# extension module 'matplotlib._qhull' loaded from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/_qhull.so'
+# extension module 'matplotlib._qhull' executed from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/_qhull.so'
+import 'matplotlib._qhull' # <_frozen_importlib_external.ExtensionFileLoader object at 0x7000000012047b8>
+import 'matplotlib.tri.triangulation' # <_frozen_importlib_external.SourceFileLoader object at 0x700000001204320>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/tri/__pycache__/tricontour.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/tri/tricontour.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/tri/__pycache__/tricontour.cpython-36.pyc'
+import 'matplotlib.tri.tricontour' # <_frozen_importlib_external.SourceFileLoader object at 0x700000001204710>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/tri/__pycache__/tritools.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/tri/tritools.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/tri/__pycache__/tritools.cpython-36.pyc'
+import 'matplotlib.tri.tritools' # <_frozen_importlib_external.SourceFileLoader object at 0x700000001204898>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/tri/__pycache__/trifinder.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/tri/trifinder.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/tri/__pycache__/trifinder.cpython-36.pyc'
+import 'matplotlib.tri.trifinder' # <_frozen_importlib_external.SourceFileLoader object at 0x700000001204cc0>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/tri/__pycache__/triinterpolate.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/tri/triinterpolate.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/tri/__pycache__/triinterpolate.cpython-36.pyc'
+import 'matplotlib.tri.triinterpolate' # <_frozen_importlib_external.SourceFileLoader object at 0x700000001204eb8>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/tri/__pycache__/trirefine.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/tri/trirefine.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/tri/__pycache__/trirefine.cpython-36.pyc'
+import 'matplotlib.tri.trirefine' # <_frozen_importlib_external.SourceFileLoader object at 0x700000001228860>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/tri/__pycache__/tripcolor.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/tri/tripcolor.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/tri/__pycache__/tripcolor.cpython-36.pyc'
+import 'matplotlib.tri.tripcolor' # <_frozen_importlib_external.SourceFileLoader object at 0x700000001228c88>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/tri/__pycache__/triplot.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/tri/triplot.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/tri/__pycache__/triplot.cpython-36.pyc'
+import 'matplotlib.tri.triplot' # <_frozen_importlib_external.SourceFileLoader object at 0x700000001228e10>
+import 'matplotlib.tri' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000012041d0>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/axes/__pycache__/_base.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/axes/_base.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/axes/__pycache__/_base.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/axis.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/axis.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/axis.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/scale.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/scale.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/scale.cpython-36.pyc'
+import 'matplotlib.scale' # <_frozen_importlib_external.SourceFileLoader object at 0x700000001107940>
+import 'matplotlib.axis' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000012a4550>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/spines.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/spines.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/__pycache__/spines.cpython-36.pyc'
+import 'matplotlib.spines' # <_frozen_importlib_external.SourceFileLoader object at 0x700000001126898>
+import 'matplotlib.axes._base' # <_frozen_importlib_external.SourceFileLoader object at 0x700000001228d68>
+import 'matplotlib.axes._axes' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000f7d400>
+import 'matplotlib.axes._subplots' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000f749e8>
+import 'matplotlib.axes' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000f747f0>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/projections/__pycache__/__init__.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/projections/__init__.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/projections/__pycache__/__init__.cpython-36.pyc'
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/projections/__pycache__/geo.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/projections/geo.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/projections/__pycache__/geo.cpython-36.pyc'
+import 'matplotlib.projections.geo' # <_frozen_importlib_external.SourceFileLoader object at 0x700000001130978>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/projections/__pycache__/polar.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/projections/polar.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/projections/__pycache__/polar.cpython-36.pyc'
+import 'matplotlib.projections.polar' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000011ec128>
+import 'matplotlib.projections' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000f7d278>
+import 'matplotlib.figure' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000efd8d0>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/backends/__pycache__/__init__.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/backends/__init__.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/backends/__pycache__/__init__.cpython-36.pyc'
+import 'matplotlib.backends' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000f74710>
+# /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/backends/__pycache__/backend_agg.cpython-36.pyc matches /QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/backends/backend_agg.py
+# code object from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/backends/__pycache__/backend_agg.cpython-36.pyc'
+# extension module 'matplotlib.backends._backend_agg' loaded from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/backends/_backend_agg.so'
+# extension module 'matplotlib.backends._backend_agg' executed from '/QOpenSys/pkgs/lib/python3.6/site-packages/matplotlib-2.2.2-py3.6-os400-powerpc64.egg/matplotlib/backends/_backend_agg.so'
+import 'matplotlib.backends._backend_agg' # <_frozen_importlib_external.ExtensionFileLoader object at 0x70000000116f860>
+import 'matplotlib.backends.backend_agg' # <_frozen_importlib_external.SourceFileLoader object at 0x7000000011eca20>
+import 'matplotlib.pyplot' # <_frozen_importlib_external.SourceFileLoader object at 0x700000000a87b00>
+# clear builtins._
+# clear sys.path
+# clear sys.argv
+# clear sys.ps1
+# clear sys.ps2
+# clear sys.last_type
+# clear sys.last_value
+# clear sys.last_traceback
+# clear sys.path_hooks
+# clear sys.path_importer_cache
+# clear sys.meta_path
+# clear sys.__interactivehook__
+# clear sys.flags
+# clear sys.float_info
+# restore sys.stdin
+# restore sys.stdout
+# restore sys.stderr
+# cleanup[2] removing builtins
+# cleanup[2] removing sys
+# cleanup[2] removing _frozen_importlib
+# cleanup[2] removing _imp
+# cleanup[2] removing _warnings
+# cleanup[2] removing _thread
+# cleanup[2] removing _weakref
+# cleanup[2] removing _frozen_importlib_external
+# cleanup[2] removing _io
+# cleanup[2] removing marshal
+# cleanup[2] removing posix
+# cleanup[2] removing zipimport
+# cleanup[2] removing encodings
+# cleanup[2] removing codecs
+# cleanup[2] removing _codecs
+# cleanup[2] removing encodings.aliases
+# cleanup[2] removing encodings.latin_1
+# cleanup[2] removing _signal
+# cleanup[2] removing __main__
+# destroy __main__
+# cleanup[2] removing encodings.utf_8
+# cleanup[2] removing io
+# cleanup[2] removing abc
+# cleanup[2] removing _weakrefset
+# destroy _weakrefset
+# cleanup[2] removing _bootlocale
+# destroy _bootlocale
+# cleanup[2] removing _locale
+# cleanup[2] removing site
+# destroy site
+# cleanup[2] removing os
+# cleanup[2] removing errno
+# cleanup[2] removing stat
+# cleanup[2] removing _stat
+# cleanup[2] removing posixpath
+# cleanup[2] removing genericpath
+# cleanup[2] removing os.path
+# cleanup[2] removing _collections_abc
+# cleanup[2] removing _sitebuiltins
+# cleanup[2] removing sysconfig
+# destroy sysconfig
+# cleanup[2] removing _sysconfigdata_m_aix6_
+# destroy _sysconfigdata_m_aix6_
+# cleanup[2] removing sitecustomize
+# destroy sitecustomize
+# cleanup[2] removing ssl
+# cleanup[2] removing ipaddress
+# cleanup[2] removing functools
+# cleanup[2] removing _functools
+# cleanup[2] removing collections
+# cleanup[2] removing operator
+# cleanup[2] removing _operator
+# cleanup[2] removing keyword
+# destroy keyword
+# cleanup[2] removing heapq
+# cleanup[2] removing _heapq
+# cleanup[2] removing itertools
+# cleanup[2] removing reprlib
+# destroy reprlib
+# cleanup[2] removing _collections
+# cleanup[2] removing types
+# cleanup[2] removing collections.abc
+# cleanup[2] removing weakref
+# cleanup[2] removing textwrap
+# cleanup[2] removing re
+# cleanup[2] removing enum
+# cleanup[2] removing sre_compile
+# cleanup[2] removing _sre
+# cleanup[2] removing sre_parse
+# cleanup[2] removing sre_constants
+# cleanup[2] removing copyreg
+# cleanup[2] removing _socket
+# cleanup[2] removing _ssl
+# cleanup[2] removing socket
+# cleanup[2] removing selectors
+# cleanup[2] removing math
+# cleanup[2] removing select
+# cleanup[2] removing base64
+# cleanup[2] removing struct
+# cleanup[2] removing _struct
+# cleanup[2] removing binascii
+# cleanup[2] removing warnings
+# cleanup[2] removing encodings.cp437
+# cleanup[2] removing matplotlib
+# cleanup[2] removing __future__
+# destroy __future__
+# cleanup[2] removing six
+# cleanup[2] removing atexit
+# cleanup[2] removing contextlib
+# cleanup[2] removing distutils
+# cleanup[2] removing distutils.version
+# cleanup[2] removing distutils.sysconfig
+# cleanup[2] removing distutils.errors
+# cleanup[2] removing inspect
+# cleanup[2] removing ast
+# cleanup[2] removing _ast
+# cleanup[2] removing dis
+# cleanup[2] removing opcode
+# destroy opcode
+# cleanup[2] removing _opcode
+# cleanup[2] removing importlib
+# cleanup[2] removing importlib._bootstrap
+# cleanup[2] removing importlib._bootstrap_external
+# cleanup[2] removing importlib.machinery
+# cleanup[2] removing linecache
+# cleanup[2] removing tokenize
+# cleanup[2] removing token
+# cleanup[2] removing locale
+# cleanup[2] removing logging
+# cleanup[2] removing time
+# cleanup[2] removing traceback
+# cleanup[2] removing string
+# cleanup[2] removing _string
+# cleanup[2] removing threading
+# cleanup[2] removing shutil
+# cleanup[2] removing fnmatch
+# cleanup[2] removing zlib
+# cleanup[2] removing bz2
+# cleanup[2] removing _compression
+# cleanup[2] removing _bz2
+# cleanup[2] removing lzma
+# destroy lzma
+# cleanup[2] removing _lzma
+# cleanup[2] removing pwd
+# cleanup[2] removing grp
+# cleanup[2] removing tempfile
+# cleanup[2] removing random
+# cleanup[2] removing hashlib
+# cleanup[2] removing _hashlib
+# cleanup[2] removing _blake2
+# cleanup[2] removing _sha3
+# cleanup[2] removing bisect
+# cleanup[2] removing _bisect
+# cleanup[2] removing _random
+# cleanup[2] removing matplotlib.cbook
+# cleanup[2] removing six.moves
+# cleanup[2] removing datetime
+# cleanup[2] removing _datetime
+# cleanup[2] removing glob
+# cleanup[2] removing gzip
+# cleanup[2] removing numbers
+# cleanup[2] removing numpy
+# cleanup[2] removing numpy._globals
+# cleanup[2] removing numpy.__config__
+# cleanup[2] removing numpy.version
+# cleanup[2] removing numpy._import_tools
+# cleanup[2] removing numpy.add_newdocs
+# cleanup[2] removing numpy.lib
+# cleanup[2] removing numpy.lib.info
+# destroy numpy.lib.info
+# cleanup[2] removing numpy.lib.type_check
+# cleanup[2] removing numpy.core
+# cleanup[2] removing numpy.core.info
+# cleanup[2] removing numpy.core.multiarray
+# cleanup[2] removing numpy.core.umath
+# cleanup[2] removing numpy.core._internal
+# cleanup[2] removing numpy.compat
+# cleanup[2] removing numpy.compat._inspect
+# cleanup[2] removing numpy.compat.py3k
+# cleanup[2] removing pathlib
+# destroy pathlib
+# cleanup[2] removing ntpath
+# cleanup[2] removing urllib
+# cleanup[2] removing urllib.parse
+# cleanup[2] removing ctypes
+# cleanup[2] removing _ctypes
+# cleanup[2] removing ctypes._endian
+# cleanup[2] removing numpy.core.numerictypes
+# cleanup[2] removing numpy.core.numeric
+# cleanup[2] removing pickle
+# cleanup[2] removing _compat_pickle
+# cleanup[2] removing _pickle
+# cleanup[2] removing numpy.core.fromnumeric
+# cleanup[2] removing numpy.core._methods
+# cleanup[2] removing numpy.core.arrayprint
+# cleanup[2] removing numpy.core.defchararray
+# cleanup[2] removing numpy.core.records
+# cleanup[2] removing numpy.core.memmap
+# destroy numpy.core.memmap
+# cleanup[2] removing numpy.core.function_base
+# cleanup[2] removing numpy.core.machar
+# cleanup[2] removing numpy.core.getlimits
+# cleanup[2] removing numpy.core.shape_base
+# cleanup[2] removing numpy.core.einsumfunc
+# cleanup[2] removing numpy.testing
+# cleanup[2] removing unittest
+# destroy unittest
+# cleanup[2] removing unittest.result
+# cleanup[2] removing unittest.util
+# cleanup[2] removing unittest.case
+# cleanup[2] removing difflib
+# cleanup[2] removing pprint
+# cleanup[2] removing unittest.suite
+# cleanup[2] removing unittest.loader
+# cleanup[2] removing unittest.main
+# destroy unittest.main
+# cleanup[2] removing argparse
+# cleanup[2] removing copy
+# cleanup[2] removing gettext
+# destroy gettext
+# cleanup[2] removing unittest.runner
+# cleanup[2] removing unittest.signals
+# cleanup[2] removing signal
+# cleanup[2] removing numpy.testing.decorators
+# cleanup[2] removing numpy.testing.nose_tools
+# cleanup[2] removing numpy.testing.nose_tools.decorators
+# cleanup[2] removing numpy.testing.nose_tools.utils
+# cleanup[2] removing numpy.lib.utils
+# cleanup[2] removing numpy.testing.nosetester
+# cleanup[2] removing numpy.testing.nose_tools.nosetester
+# cleanup[2] removing numpy.testing.utils
+# cleanup[2] removing numpy.lib.ufunclike
+# cleanup[2] removing numpy.lib.index_tricks
+# cleanup[2] removing numpy.lib.function_base
+# cleanup[2] removing numpy.lib.twodim_base
+# cleanup[2] removing numpy.matrixlib
+# cleanup[2] removing numpy.matrixlib.defmatrix
+# cleanup[2] removing numpy.lib.stride_tricks
+# cleanup[2] removing numpy.lib.mixins
+# cleanup[2] removing numpy.lib.nanfunctions
+# cleanup[2] removing numpy.lib.shape_base
+# cleanup[2] removing numpy.lib.scimath
+# cleanup[2] removing numpy.lib.polynomial
+# cleanup[2] removing numpy.linalg
+# cleanup[2] removing numpy.linalg.info
+# cleanup[2] removing numpy.linalg.linalg
+# cleanup[2] removing numpy.linalg.lapack_lite
+# cleanup[2] removing numpy.linalg._umath_linalg
+# cleanup[2] removing numpy.lib.arraysetops
+# cleanup[2] removing numpy.lib.npyio
+# cleanup[2] removing numpy.lib.format
+# cleanup[2] removing numpy.lib._datasource
+# cleanup[2] removing numpy.lib._iotools
+# cleanup[2] removing numpy.lib.financial
+# cleanup[2] removing decimal
+# destroy decimal
+# cleanup[2] removing _decimal
+# cleanup[2] removing numpy.lib.arrayterator
+# cleanup[2] removing numpy.lib.arraypad
+# cleanup[2] removing numpy.lib._version
+# cleanup[2] removing numpy._distributor_init
+# cleanup[2] removing numpy.fft
+# cleanup[2] removing numpy.fft.info
+# cleanup[2] removing numpy.fft.fftpack
+# cleanup[2] removing numpy.fft.fftpack_lite
+# cleanup[2] removing numpy.fft.helper
+# cleanup[2] removing numpy.polynomial
+# cleanup[2] removing numpy.polynomial.polynomial
+# cleanup[2] removing numpy.polynomial.polyutils
+# cleanup[2] removing numpy.polynomial._polybase
+# cleanup[2] removing numpy.polynomial.chebyshev
+# cleanup[2] removing numpy.polynomial.legendre
+# cleanup[2] removing numpy.polynomial.hermite
+# cleanup[2] removing numpy.polynomial.hermite_e
+# cleanup[2] removing numpy.polynomial.laguerre
+# cleanup[2] removing numpy.random
+# cleanup[2] removing numpy.random.info
+# cleanup[2] removing cython_runtime
+# destroy cython_runtime
+# cleanup[2] removing mtrand
+# cleanup[2] removing numpy.random.mtrand
+# cleanup[2] removing numpy.ctypeslib
+# cleanup[2] removing numpy.ma
+# cleanup[2] removing numpy.ma.core
+# cleanup[2] removing numpy.ma.extras
+# cleanup[2] removing matplotlib.cbook.deprecation
+# cleanup[2] removing matplotlib.cbook._backports
+# cleanup[2] removing matplotlib.compat
+# cleanup[2] removing matplotlib.compat.subprocess
+# cleanup[2] removing subprocess
+# cleanup[2] removing _posixsubprocess
+# cleanup[2] removing matplotlib.rcsetup
+# cleanup[2] removing matplotlib.testing
+# cleanup[2] removing matplotlib.fontconfig_pattern
+# cleanup[2] removing pyparsing
+# cleanup[2] removing matplotlib.colors
+# cleanup[2] removing matplotlib._color_data
+# cleanup[2] removing cycler
+# destroy cycler
+# cleanup[2] removing six.moves.urllib
+# cleanup[2] removing six.moves.urllib.request
+# cleanup[2] removing urllib.request
+# cleanup[2] removing email
+# cleanup[2] removing http
+# cleanup[2] removing http.client
+# cleanup[2] removing email.parser
+# cleanup[2] removing email.feedparser
+# cleanup[2] removing email.errors
+# cleanup[2] removing email._policybase
+# cleanup[2] removing email.header
+# cleanup[2] removing email.quoprimime
+# cleanup[2] removing email.base64mime
+# cleanup[2] removing email.charset
+# cleanup[2] removing email.encoders
+# cleanup[2] removing quopri
+# cleanup[2] removing email.utils
+# cleanup[2] removing email._parseaddr
+# cleanup[2] removing calendar
+# cleanup[2] removing email.message
+# cleanup[2] removing uu
+# cleanup[2] removing email._encoded_words
+# cleanup[2] removing email.iterators
+# cleanup[2] removing urllib.error
+# cleanup[2] removing urllib.response
+# cleanup[2] removing matplotlib._version
+# cleanup[2] removing json
+# cleanup[2] removing json.decoder
+# cleanup[2] removing json.scanner
+# cleanup[2] removing _json
+# cleanup[2] removing json.encoder
+# cleanup[2] removing dateutil
+# cleanup[2] removing dateutil._version
+# cleanup[2] removing matplotlib.pyplot
+# cleanup[2] removing matplotlib.colorbar
+# cleanup[2] removing matplotlib.artist
+# cleanup[2] removing matplotlib.docstring
+# cleanup[2] removing matplotlib.path
+# cleanup[2] removing matplotlib._path
+# cleanup[2] removing matplotlib.transforms
+# cleanup[2] removing matplotlib.collections
+# cleanup[2] removing matplotlib.cm
+# cleanup[2] removing matplotlib._cm
+# cleanup[2] removing matplotlib._cm_listed
+# cleanup[2] removing matplotlib.lines
+# cleanup[2] removing matplotlib.markers
+# cleanup[2] removing matplotlib.contour
+# cleanup[2] removing matplotlib._contour
+# cleanup[2] removing matplotlib.ticker
+# cleanup[2] removing matplotlib.font_manager
+# cleanup[2] removing matplotlib.afm
+# cleanup[2] removing matplotlib._mathtext_data
+# cleanup[2] removing matplotlib.ft2font
+# cleanup[2] removing matplotlib.text
+# cleanup[2] removing matplotlib.patches
+# cleanup[2] removing matplotlib.bezier
+# cleanup[2] removing matplotlib.textpath
+# cleanup[2] removing matplotlib.mathtext
+# cleanup[2] removing unicodedata
+# cleanup[2] removing matplotlib._png
+# cleanup[2] removing matplotlib.dviread
+# cleanup[2] removing six.moves.urllib.parse
+# cleanup[2] removing matplotlib.texmanager
+# cleanup[2] removing matplotlib.blocking_input
+# cleanup[2] removing matplotlib.gridspec
+# cleanup[2] removing matplotlib._pylab_helpers
+# cleanup[2] removing gc
+# cleanup[2] removing matplotlib.tight_layout
+# cleanup[2] removing matplotlib._layoutbox
+# cleanup[2] removing kiwisolver
+# cleanup[2] removing matplotlib._constrained_layout
+# cleanup[2] removing matplotlib.legend
+# cleanup[2] removing matplotlib.offsetbox
+# cleanup[2] removing matplotlib.image
+# cleanup[2] removing matplotlib._image
+# cleanup[2] removing matplotlib.container
+# cleanup[2] removing matplotlib.legend_handler
+# cleanup[2] removing matplotlib.style
+# cleanup[2] removing matplotlib.style.core
+# cleanup[2] removing matplotlib.backend_bases
+# cleanup[2] removing matplotlib.backend_tools
+# cleanup[2] removing matplotlib.tight_bbox
+# cleanup[2] removing matplotlib.widgets
+# cleanup[2] removing matplotlib.figure
+# cleanup[2] removing matplotlib.axes
+# cleanup[2] removing matplotlib.axes._subplots
+# cleanup[2] removing matplotlib.axes._axes
+# cleanup[2] removing matplotlib.category
+# cleanup[2] removing matplotlib.units
+# cleanup[2] removing matplotlib.dates
+# cleanup[2] removing dateutil.rrule
+# cleanup[2] removing dateutil._common
+# cleanup[2] removing dateutil.tz
+# cleanup[2] removing dateutil.tz.tz
+# cleanup[2] removing dateutil.tz._common
+# cleanup[2] removing dateutil.tz._factories
+# cleanup[2] removing dateutil.relativedelta
+# cleanup[2] removing dateutil.parser
+# cleanup[2] removing dateutil.parser._parser
+# cleanup[2] removing dateutil.parser.isoparser
+# destroy dateutil.parser.isoparser
+# cleanup[2] removing matplotlib.mlab
+# cleanup[2] removing csv
+# cleanup[2] removing _csv
+# cleanup[2] removing matplotlib.quiver
+# cleanup[2] removing matplotlib.stackplot
+# cleanup[2] removing matplotlib.streamplot
+# cleanup[2] removing matplotlib.table
+# cleanup[2] removing matplotlib.tri
+# cleanup[2] removing matplotlib.tri.triangulation
+# cleanup[2] removing matplotlib._tri
+# cleanup[2] removing matplotlib._qhull
+# cleanup[2] removing matplotlib.tri.tricontour
+# destroy matplotlib.tri.tricontour
+# cleanup[2] removing matplotlib.tri.tritools
+# cleanup[2] removing matplotlib.tri.trifinder
+# cleanup[2] removing matplotlib.tri.triinterpolate
+# cleanup[2] removing matplotlib.tri.trirefine
+# cleanup[2] removing matplotlib.tri.tripcolor
+# destroy matplotlib.tri.tripcolor
+# cleanup[2] removing matplotlib.tri.triplot
+# destroy matplotlib.tri.triplot
+# cleanup[2] removing matplotlib.axes._base
+# cleanup[2] removing matplotlib.axis
+# cleanup[2] removing matplotlib.scale
+# cleanup[2] removing matplotlib.spines
+# cleanup[2] removing matplotlib.projections
+# cleanup[2] removing matplotlib.projections.geo
+# cleanup[2] removing matplotlib.projections.polar
+# cleanup[2] removing matplotlib.backends
+# cleanup[2] removing matplotlib.backends.backend_agg
+# cleanup[2] removing matplotlib.backends._backend_agg
+# destroy _datetime
+# destroy _sha3
+# destroy _blake2
+# destroy _bz2
+# destroy _ast
+# destroy zipimport
+# destroy _sitebuiltins
+# destroy ipaddress
+# destroy _ssl
+# destroy _socket
+# destroy matplotlib.compat
+# destroy matplotlib.fontconfig_pattern
+# destroy matplotlib._color_data
+# destroy matplotlib.rcsetup
+# destroy matplotlib._version
+# destroy pyparsing
+# destroy matplotlib._cm
+# destroy matplotlib._cm_listed
+# destroy matplotlib._mathtext_data
+# destroy matplotlib.bezier
+# destroy matplotlib.blocking_input
+# destroy matplotlib.offsetbox
+# destroy matplotlib.container
+# destroy matplotlib.backend_bases
+# destroy matplotlib.category
+# destroy matplotlib.projections
+# destroy matplotlib.figure
+# destroy matplotlib.backends
+# destroy matplotlib.pyplot
+# destroy six.moves
+# destroy six.moves.urllib
+# destroy six.moves.urllib_parse
+# destroy six.moves.urllib.error
+# destroy six.moves.urllib.request
+# destroy six.moves.urllib.response
+# destroy six.moves.urllib.robotparser
+# destroy distutils.version
+# destroy distutils.errors
+# destroy distutils.sysconfig
+# destroy dis
+# destroy token
+# destroy _opcode
+# destroy importlib.machinery
+# destroy encodings
+# destroy _lzma
+# destroy bz2
+# destroy gzip
+# destroy matplotlib.cbook.deprecation
+# destroy zlib
+# destroy _compression
+# destroy urllib.parse
+# destroy urllib.response
+# destroy urllib.error
+# destroy urllib.request
+# destroy unittest.signals
+# destroy unittest.case
+# destroy unittest.suite
+# destroy argparse
+# destroy unittest.loader
+# destroy unittest.runner
+# destroy _signal
+# destroy decimal
+# destroy signal
+# destroy select
+# destroy selectors
+# destroy _posixsubprocess
+# destroy matplotlib.testing
+# destroy sre_constants
+# destroy hashlib
+# destroy email.quoprimime
+# destroy email.base64mime
+# destroy email.encoders
+# destroy email._parseaddr
+# destroy email._policybase
+# destroy email.feedparser
+# destroy email.parser
+# destroy email._encoded_words
+# destroy email.iterators
+# destroy email.message
+# destroy http.client
+# destroy http
+# destroy ssl
+# destroy email.header
+# destroy email
+# destroy random
+# destroy socket
+# destroy uu
+# destroy quopri
+# destroy email.utils
+# destroy email.charset
+# destroy base64
+# destroy binascii
+# destroy email.errors
+# destroy urllib
+# destroy tempfile
+# destroy json.decoder
+# destroy json.encoder
+# destroy json.scanner
+# destroy _json
+# destroy dateutil._version
+# destroy dateutil._common
+# destroy dateutil.rrule
+# destroy dateutil.parser
+# destroy matplotlib.style
+# destroy matplotlib.style.core
+# destroy matplotlib.gridspec
+# destroy matplotlib._constrained_layout
+# destroy matplotlib._path
+# destroy matplotlib._contour
+# destroy matplotlib.mathtext
+# destroy matplotlib.texmanager
+# destroy locale
+# destroy json
+# destroy matplotlib.afm
+# destroy matplotlib.ft2font
+# destroy unicodedata
+# destroy matplotlib.compat.subprocess
+# destroy glob
+# destroy distutils
+# destroy subprocess
+# destroy matplotlib.dviread
+# destroy matplotlib._pylab_helpers
+# destroy matplotlib.tight_layout
+# destroy gc
+# destroy kiwisolver
+# destroy matplotlib.legend_handler
+# destroy matplotlib._image
+# destroy importlib
+# destroy matplotlib.backend_tools
+# destroy matplotlib.textpath
+# destroy matplotlib.tight_bbox
+# destroy matplotlib.widgets
+# destroy matplotlib.colorbar
+# destroy matplotlib.axes._base
+# destroy matplotlib.axes._axes
+# destroy matplotlib.axes._subplots
+# destroy matplotlib._layoutbox
+# destroy matplotlib.contour
+# destroy matplotlib.dates
+# destroy matplotlib.legend
+# destroy matplotlib.mlab
+# destroy matplotlib.quiver
+# destroy matplotlib.stackplot
+# destroy matplotlib.streamplot
+# destroy matplotlib.table
+# destroy matplotlib.tri
+# destroy matplotlib.tri.triangulation
+# destroy matplotlib.tri.tritools
+# destroy matplotlib.tri.trifinder
+# destroy matplotlib.tri.triinterpolate
+# destroy matplotlib.tri.trirefine
+# destroy matplotlib.cbook._backports
+# destroy dateutil
+# destroy dateutil.tz._common
+# destroy dateutil.tz._factories
+# destroy dateutil.tz.tz
+# destroy struct
+# destroy dateutil.parser._parser
+# destroy datetime
+# destroy string
+# destroy dateutil.relativedelta
+# destroy calendar
+# destroy dateutil.tz
+# destroy copy
+# destroy csv
+# destroy _csv
+# destroy matplotlib.cm
+# destroy matplotlib.collections
+# destroy qhull
+# destroy matplotlib._tri
+# destroy matplotlib.image
+# destroy matplotlib.artist
+# destroy matplotlib.font_manager
+# destroy matplotlib.lines
+# destroy matplotlib.scale
+# destroy matplotlib.text
+# destroy matplotlib.units
+# destroy matplotlib.projections.geo
+# destroy matplotlib.projections.polar
+# destroy matplotlib.axes
+# destroy matplotlib.axis
+# destroy matplotlib.docstring
+# destroy matplotlib.markers
+# destroy matplotlib.patches
+# destroy matplotlib.path
+# destroy matplotlib.ticker
+# destroy matplotlib.transforms
+# destroy matplotlib.spines
+# destroy matplotlib
+# destroy inspect
+# destroy matplotlib.backends._backend_agg
+# destroy matplotlib.backends.backend_agg
+# destroy six
+# destroy matplotlib.cbook
+# destroy matplotlib.colors
+# destroy matplotlib._png
+# cleanup[3] wiping _frozen_importlib
+# destroy _frozen_importlib_external
+# cleanup[3] wiping _imp
+# cleanup[3] wiping _warnings
+# cleanup[3] wiping _thread
+# cleanup[3] wiping _weakref
+# cleanup[3] wiping _io
+# cleanup[3] wiping marshal
+# cleanup[3] wiping posix
+# cleanup[3] wiping codecs
+# cleanup[3] wiping _codecs
+# cleanup[3] wiping encodings.aliases
+# cleanup[3] wiping encodings.latin_1
+# cleanup[3] wiping encodings.utf_8
+# cleanup[3] wiping io
+# cleanup[3] wiping abc
+# cleanup[3] wiping _locale
+# cleanup[3] wiping os
+# cleanup[3] wiping errno
+# cleanup[3] wiping stat
+# cleanup[3] wiping _stat
+# cleanup[3] wiping posixpath
+# cleanup[3] wiping genericpath
+# cleanup[3] wiping os.path
+# cleanup[3] wiping _collections_abc
+# cleanup[3] wiping functools
+# cleanup[3] wiping _functools
+# cleanup[3] wiping collections
+# destroy heapq
+# cleanup[3] wiping operator
+# cleanup[3] wiping _operator
+# cleanup[3] wiping _heapq
+# cleanup[3] wiping itertools
+# cleanup[3] wiping _collections
+# destroy _collections
+# cleanup[3] wiping types
+# destroy collections.abc
+# cleanup[3] wiping weakref
+# cleanup[3] wiping textwrap
+# cleanup[3] wiping re
+# destroy _locale
+# destroy enum
+# destroy sre_compile
+# destroy copyreg
+# cleanup[3] wiping _sre
+# cleanup[3] wiping sre_parse
+# cleanup[3] wiping math
+# cleanup[3] wiping _struct
+# cleanup[3] wiping warnings
+# cleanup[3] wiping encodings.cp437
+# cleanup[3] wiping atexit
+# cleanup[3] wiping contextlib
+# destroy _collections_abc
+# destroy abc
+# cleanup[3] wiping ast
+# cleanup[3] wiping importlib._bootstrap
+# cleanup[3] wiping linecache
+# destroy tokenize
+# cleanup[3] wiping logging
+# destroy atexit
+# cleanup[3] wiping time
+# cleanup[3] wiping traceback
+# destroy linecache
+# cleanup[3] wiping _string
+# cleanup[3] wiping threading
+# cleanup[3] wiping shutil
+# cleanup[3] wiping fnmatch
+# cleanup[3] wiping pwd
+# destroy pwd
+# cleanup[3] wiping grp
+# destroy grp
+# cleanup[3] wiping _hashlib
+# cleanup[3] wiping bisect
+# cleanup[3] wiping _bisect
+# destroy _bisect
+# cleanup[3] wiping _random
+# cleanup[3] wiping numbers
+# cleanup[3] wiping numpy
+# destroy numpy._globals
+# destroy numpy._import_tools
+# destroy numpy._distributor_init
+# destroy numpy.__config__
+# destroy numpy.version
+# destroy numpy.compat
+# destroy numpy.compat._inspect
+# destroy numpy.compat.py3k
+# destroy numpy.testing
+# destroy numpy.testing.nose_tools
+# destroy numpy.testing.nose_tools.utils
+# destroy numpy.testing.nose_tools.decorators
+# destroy numpy.testing.nose_tools.nosetester
+# destroy numpy.testing.decorators
+# destroy numpy.testing.nosetester
+# destroy numpy.testing.utils
+# destroy numpy.core
+# destroy numpy.lib
+# destroy numpy.lib.utils
+# destroy numpy.lib.ufunclike
+# destroy numpy.lib.type_check
+# destroy numpy.lib.twodim_base
+# destroy numpy.lib.stride_tricks
+# destroy numpy.lib.index_tricks
+# destroy numpy.lib.mixins
+# destroy numpy.lib.nanfunctions
+# destroy numpy.lib.shape_base
+# destroy numpy.lib.polynomial
+# destroy numpy.lib.arraysetops
+# destroy numpy.lib._datasource
+# destroy numpy.lib._iotools
+# destroy numpy.lib.npyio
+# destroy numpy.lib.financial
+# destroy numpy.lib.arrayterator
+# destroy numpy.lib.arraypad
+# destroy numpy.lib._version
+# destroy numpy.add_newdocs
+# destroy numpy.lib.scimath
+# destroy numpy.fft
+# destroy numpy.fft.info
+# destroy numpy.fft.helper
+# destroy numpy.fft.fftpack
+# destroy numpy.polynomial
+# destroy numpy.polynomial._polybase
+# destroy numpy.polynomial.polynomial
+# destroy numpy.polynomial.chebyshev
+# destroy numpy.polynomial.legendre
+# destroy numpy.polynomial.hermite
+# destroy numpy.polynomial.hermite_e
+# destroy numpy.polynomial.laguerre
+# destroy numpy.random
+# destroy numpy.ctypeslib
+# destroy numpy.ma
+# destroy numpy.ma.extras
+# cleanup[3] wiping numpy.core.info
+# cleanup[3] wiping numpy.core.multiarray
+# cleanup[3] wiping numpy.core.umath
+# cleanup[3] wiping numpy.core._internal
+# cleanup[3] wiping ntpath
+# destroy stat
+# destroy genericpath
+# cleanup[3] wiping ctypes
+# destroy ctypes._endian
+# cleanup[3] wiping _ctypes
+# cleanup[3] wiping numpy.core.numerictypes
+# cleanup[3] wiping numpy.core.numeric
+# cleanup[3] wiping pickle
+# destroy _compat_pickle
+# destroy _struct
+# cleanup[3] wiping _pickle
+# cleanup[3] wiping numpy.core.fromnumeric
+# cleanup[3] wiping numpy.core._methods
+# cleanup[3] wiping numpy.core.arrayprint
+# cleanup[3] wiping numpy.core.defchararray
+# cleanup[3] wiping numpy.core.records
+# cleanup[3] wiping numpy.core.function_base
+# cleanup[3] wiping numpy.core.machar
+# cleanup[3] wiping numpy.core.getlimits
+# cleanup[3] wiping numpy.core.shape_base
+# cleanup[3] wiping numpy.core.einsumfunc
+# cleanup[3] wiping unittest.result
+# destroy unittest.util
+# cleanup[3] wiping difflib
+# cleanup[3] wiping pprint
+# cleanup[3] wiping numpy.lib.function_base
+# cleanup[3] wiping numpy.matrixlib
+# destroy numpy.matrixlib.defmatrix
+# cleanup[3] wiping numpy.linalg
+# destroy numpy.linalg.info
+# destroy numpy.linalg.linalg
+# cleanup[3] wiping numpy.linalg.lapack_lite
+# cleanup[3] wiping numpy.linalg._umath_linalg
+# cleanup[3] wiping numpy.lib.format
+# cleanup[3] wiping numpy.fft.fftpack_lite
+# cleanup[3] wiping numpy.polynomial.polyutils
+# cleanup[3] wiping numpy.random.info
+# cleanup[3] wiping mtrand
+# cleanup[3] wiping numpy.random.mtrand
+# cleanup[3] wiping numpy.ma.core
+# destroy textwrap
+# cleanup[3] wiping sys
+# cleanup[3] wiping builtins
+# destroy numpy.core.info
+# destroy numpy.core._internal
+# destroy numpy.core._methods
+# destroy numpy.core.fromnumeric
+# destroy numpy.core.arrayprint
+# destroy numpy.core.defchararray
+# destroy numpy.core.records
+# destroy numpy.core.function_base
+# destroy numpy.core.machar
+# destroy numpy.core.getlimits
+# destroy numpy.core.shape_base
+# destroy numpy.core.einsumfunc
+# destroy numpy.lib.format
+# destroy pickle
+# destroy _pickle
+# destroy numpy.core.numerictypes
+# destroy numpy.lib.function_base
+# destroy numpy.matrixlib
+# destroy numpy.random.info
+# destroy numpy.random.mtrand
+# destroy ast
+# destroy _sre
+# destroy sre_parse
+# destroy _operator
+# destroy _functools
+# destroy operator
+# destroy numpy.linalg.lapack_lite
+# destroy numpy.linalg._umath_linalg
+# destroy numpy.core.numeric
+# destroy threading
+# destroy numpy.fft.fftpack_lite
+# destroy numbers
+# destroy numpy.linalg
+# destroy numpy.polynomial.polyutils
+# destroy numpy.ma.core
+# destroy numpy.core.umath
+# destroy _heapq
+# destroy fnmatch
+# destroy _stat
+# destroy difflib
+# destroy logging
+# destroy pprint
+# destroy contextlib
+# destroy traceback
+# destroy unittest.result
+# destroy functools
+# destroy io
+# destroy shutil
+# destroy errno
+# destroy weakref
+# destroy ntpath
+# destroy posixpath
+# destroy time
+# destroy math
+# destroy _hashlib
+# destroy bisect
+# destroy _random
+# destroy _string
+# destroy collections
+# destroy itertools

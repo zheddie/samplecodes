@@ -1,0 +1,4 @@
+#AllowOptions
+-DZG=zhanggan
+-Xmx1G
+-Xdump:java:events=vmstop

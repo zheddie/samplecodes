@@ -1,0 +1,7 @@
+gcc  -shared -fPIC  -I/home/zhanggan/DLCProjects/DLC/runtime -Wall -fopenmp -L/usr/local/lib/  -lm  -std=c99 -O3 graph_test_conv2d_imgnet_1//*.c graph_test_conv2d_imgnet_1//*/*.c /usr/local/lib/libcblas.a  -lblas -o  /home/zhanggan/DLCProjects/DLC/build/test/cpp/test_conv2d_imgnet_1/libtest_conv2d_imgnet_1.onnx.so
+
+
+gcc  -shared -fPIC  -I/home/zhanggan/DLCProjects/DLC/runtime -Wall -fopenmp -L/usr/local/lib/  -lm  -std=c99 -O3 -lblas graph_test_conv2d_imgnet_1//*.c graph_test_conv2d_imgnet_1//*/*.c /usr/local/lib/libcblas.a   -o  /home/zhanggan/DLCProjects/DLC/build/test/cpp/test_conv2d_imgnet_1/libtest_conv2d_imgnet_1.onnx.so
+
+
+gcc  -shared -fPIC  -I/home/zhanggan/DLCProjects/DLC/runtime -Wall -fopenmp -lm -std=c99 -O3 graph_test_conv2d_imgnet_1//*.c graph_test_conv2d_imgnet_1//*/*.c -o  /home/zhanggan/DLCProjects/DLC/build/test/cpp/test_conv2d_imgnet_1/libtest_conv2d_imgnet_1.onnx.so

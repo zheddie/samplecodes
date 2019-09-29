@@ -1,0 +1,1 @@
+template <class T > zgstruct3{ T * _x;};
