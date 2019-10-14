@@ -8,6 +8,10 @@ public class People{
 		me.setName("ZhangGan");
 		System.out.println("Name:"+me.getName()+",Age:"+me.getAge());
 	}
+	People(){
+		age = 10;
+		name = "noname";
+	}
 	public void setAge(int a){
 		age = a;
 	}
