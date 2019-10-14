@@ -1,12 +1,14 @@
 public class People{
-	static int count;
+	static int count=0;
 	int age;
 	String name;
 	public static void main(String argv[]){
 		People me = new People();
 		me.setAge(40);
 		me.setName("ZhangGan");
-		System.out.println("Name:"+me.getName()+",Age:"+me.getAge());
+		System.out.println("Name:"+me.getName()+",Age:"+me.getAge()+",People.count:"+People.count);
+		People.count++;
+		System.out.println("Name:"+me.getName()+",Age:"+me.getAge()+",People.count:"+People.count);
 	}
 	public void setAge(int a){
 		age = a;
