@@ -10,6 +10,10 @@ public class People{
 		People.count++;
 		System.out.println("Name:"+me.getName()+",Age:"+me.getAge()+",People.count:"+People.count);
 	}
+	People(){
+		age = 10;
+		name = "noname";
+	}
 	public void setAge(int a){
 		age = a;
 	}
