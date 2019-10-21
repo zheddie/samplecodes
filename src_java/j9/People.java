@@ -1,3 +1,4 @@
+import java.io.*;
 public class People{
 	static int count=0;
 	int age;
@@ -9,6 +10,12 @@ public class People{
 		System.out.println("Name:"+me.getName()+",Age:"+me.getAge()+",People.count:"+People.count);
 		People.count++;
 		System.out.println("Name:"+me.getName()+",Age:"+me.getAge()+",People.count:"+People.count);
+		System.out.println("Threads:"+Thread.activeCount());
+//		try{
+//			System.in.read();
+//		}catch(IOException e){
+//			System.out.println(e.getMessage());
+//		}
 	}
 	People(){
 		age = 10;
