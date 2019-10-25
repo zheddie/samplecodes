@@ -1,0 +1,8 @@
+First try with memset.
+Samples: 656K of event 'cycles:uppp', Event count (approx.): 425790623955
+Overhead  Command          Shared Object        Symbol
+   5.65%  resnet50_bs16_e  resnet50_bs16_exec   [.] _compute_conv
+   2.81%  resnet50_bs16_e  resnet50_bs16_exec   [.] _compute_conv_9
+   2.81%  resnet50_bs16_e  resnet50_bs16_exec   [.] _compute_conv_2
+   2.80%  resnet50_bs16_e  resnet50_bs16_exec   [.] _compute_conv_6
+   2.75%  resnet50_bs16_e  resnet50_bs16_exec   [.] _compute_conv_16

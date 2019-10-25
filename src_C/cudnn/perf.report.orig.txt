@@ -1,0 +1,55 @@
+Original: 
+
+Samples: 558K of event 'cycles:uppp', Event count (approx.): 415916804832
+Overhead  Command          Shared Object       Symbol
+   3.41%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv
+   2.88%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_9
+   2.88%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_2
+   2.87%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_6
+   2.82%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_16
+   2.81%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_12
+   2.80%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_22
+   2.79%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_19
+   2.75%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_25
+   2.63%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_32
+   2.63%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_29
+   2.63%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_38
+   2.63%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_41
+   2.62%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_14
+   2.62%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_35
+   2.62%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_44
+   2.59%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_11
+   2.58%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_27
+   2.56%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_24
+   2.55%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_46
+   2.55%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_43
+   2.32%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_48
+   2.32%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_51
+   1.31%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_45
+   1.31%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_52
+   1.31%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_49
+   1.30%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_23
+   1.30%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_13
+   1.30%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_17
+   1.30%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_20
+   1.30%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_50
+   1.30%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_47
+   1.30%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_4
+   1.30%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_7
+   1.30%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_10
+   1.30%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_3
+   1.30%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_5
+   1.30%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_8
+   1.28%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_21
+   1.28%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_18
+   1.28%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_15
+   1.27%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_31
+   1.27%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_34
+   1.27%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_37
+   1.27%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_28
+   1.27%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_40
+   1.27%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_42
+   1.27%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_30
+   1.27%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_39
+   1.27%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_33
+   1.27%  resnet50_bs16_e  resnet50_bs16_exec  [.] _compute_conv_26

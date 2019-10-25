@@ -1,0 +1,25 @@
+PWD=$(shell pwd)
+libworld.so: world.c
+	gcc -fPIC -c world.c
+	gcc -shared -Wl,-soname,libworld.so.2 -o libworld.so.2.0.0 world.o
+	ln -s libworld.so.2.0.0 libworld.so
+	ln -s libworld.so.2.0.0 libworld.so.2
+libhello.so: libworld.so hello.c
+	gcc -fPIC -c hello.c
+	gcc -shared -Wl,-rpath,${PREFIX}/lib64 -Wl,-soname,libhello.so.2 -o libhello.so.2.0.0 hello.o -L. -lworld
+	ln -s libhello.so.2.0.0 libhello.so
+	ln -s libhello.so.2.0.0 libhello.so.2
+mytest: libhello.so test.c
+	gcc -fPIC -c test.c
+	LD_LIBRARY_PATH=. gcc -Wl,-rpath,${PREFIX}/lib64 -o mytest test.o -L. -lhello
+all: libhello.so libworld.so mytest
+install: libhello.so libworld.so mytest
+	cp -d libhello.so ${PREFIX}/lib64/
+	cp -d libworld.so ${PREFIX}/lib64/
+	cp -d libhello.so.2 ${PREFIX}/lib64/
+	cp -d libworld.so.2 ${PREFIX}/lib64/	
+	cp libhello.so.2.0.0 ${PREFIX}/lib64/
+	cp libworld.so.2.0.0 ${PREFIX}/lib64/
+	cp mytest ${PREFIX}/bin
+	cp world.h ${PREFIX}/include/
+

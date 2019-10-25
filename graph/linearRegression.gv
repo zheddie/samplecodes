@@ -1,0 +1,12 @@
+//digraph structs{
+strict graph { 
+     node [shape=record]
+     W
+     b
+     node [shape=circle]
+     W -- mul 
+     b -- add
+     mul -- add
+     x -- mul
+     rankdir=BT
+ }

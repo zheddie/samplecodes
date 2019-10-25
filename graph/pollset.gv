@@ -1,0 +1,27 @@
+digraph structs {
+    node [shape=record];
+    pasepollset [label="<f1> pasePollset"];
+     subgraph cluster0 {
+    pollsetid1 [color = purple,label="<f1> psid:1|<f2> pfds | <f3> next|...|<f5> pid"];
+    pollsetid2 [color = purple,label="<f1> psid:2|<f2> pfds:^ | <f3> next|...|<f5> pid:-1"];
+    pollsetid3 [color = purple,label="<f1> psid:3|<f2> pfds | <f3> next:^|...|<f5> pid"];
+label = pollset_data;
+    color = purple;
+    }
+    subgraph cluster1 {
+        pfds1 [color = blue,label="{|||...||||<last> next chunk}" rankdir=LR];
+        pfds2 [color = blue,label="{|||...||||<last> ^}"];
+        pfds3 [color = blue,label="{|||...||||<last> ^}"];
+        color = blue;
+    }
+    pasepollset -> pollsetid1:f1;
+   
+    pollsetid1:f3 -> pollsetid2:f1;
+    pollsetid2:f3 -> pollsetid3:f1; 
+    
+    pollsetid1:f2 -> pfds1:f1;
+    pollsetid3:f2 -> pfds3:f1;
+    pfds1:last -> pfds2:f1;
+    
+    rankdir=LR;
+}

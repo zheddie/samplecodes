@@ -1,0 +1,8 @@
+libhello.so: hello.c
+	gcc -fPIC -o hello.o -c hello.c
+	gcc -shared -o libhello.so.1.0 hello.o
+	ln -s libhello.so.1.0 libhello.so
+all: libhello.so main.c
+	gcc -o main -Wl,-brtl -Wl,-rpath:/usr/local/lib main.c -L. -lhello
+clean:
+	rm libhello.so libhello.so.1.0 main *.o 
