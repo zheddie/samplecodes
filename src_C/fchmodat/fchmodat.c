@@ -9,9 +9,9 @@
 
 int main(int argc, char* argv[])
 {
-        char path[] = "/home/zhanggan/worktemp/afile";
+        char path[] = "/QOpenSys/home/zhanggan/worktemp/afile";
         int rc = 0;
-        int dirfd = open("/home/zhanggan/worktemp", O_RDONLY|O_DIRECTORY);
+        int dirfd = open("/QOpenSys/home/zhanggan/worktemp", O_RDONLY|O_DIRECTORY);
         printf("dirfd = %d\n", dirfd);
         rc = openat(dirfd, "afile", O_RDONLY);
         printf("rc = %d, errno = %d\n", rc, errno);
