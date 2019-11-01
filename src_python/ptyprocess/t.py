@@ -1,5 +1,5 @@
 from ptyprocess import PtyProcessUnicode
-p = PtyProcessUnicode.spawn(['python'])
+p = PtyProcessUnicode.spawn(['python3'])
 x = p.read(20)
 print("x=",x)
 p.write('6+6\n')
