@@ -7,12 +7,15 @@ def printoutadd(a,b):
 def getshang(a,b):
 	s = 0
 	while(a-b >= 0):
-		s+=1
+		s=s+p1
 		a = a-b
 	return(s,a)
 def printoutdiv(a,b):
 	ia = int(a)
 	ib = int(b)
+	if ib == 0:
+		print("are you mad!")
+		exit(-1)
 	lenb = len(b)
 	lena = len(a)
 	res = list(a)
@@ -52,18 +55,24 @@ def printoutdiv(a,b):
 	print("%10s)%10s"%(b,a))
 	
 	identlen = 21-lena+lenb
-	inZero = False
+	nextZero = True
 	for i in range(len(lji)): 
 		#print("identlen=",identlen)
 		if lji[i] != 0:
 			print("%s"%(str(lji[i]).rjust(identlen)))
-			print("%s"%(''.join(['-']*len(str(lji[i]))).rjust(identlen)))
+			print("%s"%(''.join(['-']*(2+len(str(lji[i])))).rjust(1+identlen)))
 			#identlen+=lenb-len(str(lyu[i]))
-		if int(lyu[i]) != 0:
-			if i == len(lji) -1:  #For the last one , we do not need to shift to right .
-				print("%s"%(str(lyu[i]).rjust(identlen)))
+		if i<len(lji) -1:
+			if lji[i+1] == 0:
+				nextZero = True
 			else:
-				print("%s"%(str(lyu[i]).rjust(identlen+1)))
+				nextZero = False
+		if not nextZero and lji[i] != 0:	#we do not want to print the first yu.
+			if int(lyu[i]) != 0 or i == len(lji)-1:
+				if i == len(lji) -1:  #For the last one , we do not need to shift to right .
+					print("%s"%(str(lyu[i]).rjust(identlen)))
+				else:
+					print("%s"%(str(lyu[i]).rjust(identlen+1)))
 		identlen+=1
 def printout(a,f,b):
 	if f == 1:
