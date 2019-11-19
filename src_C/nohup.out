@@ -14,3 +14,41 @@ Using default colormap which is TrueColor.  Pixel format:
   32 bits per pixel.
   Least significant byte first in each pixel.
   True colour: max red 255 green 255 blue 255, shift red 16 green 8 blue 0
+DEV/2000 VNC R1.85 (v1.0)
+vncviewer_mac: ConnectToTcpAddr: connect: Host is down
+Unable to connect to VNC server
+Attempting connection to VNC server on alternate port.
+vncviewer_mac: ConnectToTcpAddr: connect: Host is down
+Unable to connect to VNC server
+DEV/2000 VNC R1.85 (v1.0)
+vncviewer_mac: ConnectToTcpAddr: connect: Connection refused
+Unable to connect to VNC server
+Attempting connection to VNC server on alternate port.
+VNC server supports protocol version 3.8 (viewer 3.3)
+VNC authentication succeeded
+Desktop name "oc8176481510.ibm.com:99 (zhanggan)"
+Connected to VNC server, using protocol version 3.3
+VNC server default format:
+  32 bits per pixel.
+  Least significant byte first in each pixel.
+  True colour: max red 255 green 255 blue 255, shift red 16 green 8 blue 0
+Using default colormap which is TrueColor.  Pixel format:
+  32 bits per pixel.
+  Least significant byte first in each pixel.
+  True colour: max red 255 green 255 blue 255, shift red 16 green 8 blue 0
+DEV/2000 VNC R1.85 (v1.0)
+vncviewer_mac: ConnectToTcpAddr: connect: Connection refused
+Unable to connect to VNC server
+Attempting connection to VNC server on alternate port.
+VNC server supports protocol version 3.8 (viewer 3.3)
+VNC authentication succeeded
+Desktop name "oc8176481510.ibm.com:99 (zhanggan)"
+Connected to VNC server, using protocol version 3.3
+VNC server default format:
+  32 bits per pixel.
+  Least significant byte first in each pixel.
+  True colour: max red 255 green 255 blue 255, shift red 16 green 8 blue 0
+Using default colormap which is TrueColor.  Pixel format:
+  32 bits per pixel.
+  Least significant byte first in each pixel.
+  True colour: max red 255 green 255 blue 255, shift red 16 green 8 blue 0
