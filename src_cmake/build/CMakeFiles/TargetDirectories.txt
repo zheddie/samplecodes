@@ -1,0 +1,3 @@
+/Users/zhanggan/mycode/cmake/build/CMakeFiles/rebuild_cache.dir
+/Users/zhanggan/mycode/cmake/build/CMakeFiles/edit_cache.dir
+/Users/zhanggan/mycode/cmake/build/CMakeFiles/hello.dir

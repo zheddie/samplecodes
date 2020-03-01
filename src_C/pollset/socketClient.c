@@ -13,7 +13,7 @@ typedef struct {
 	char *pMsg;
 }clientPara;
 
-typedef void * (*pSocketConnect)(void *pClientPara);
+typedef (*pSocketConnect)(void *pClientPara);
 
 int checkPthreadResult(char *pStr, int rc) {
 
@@ -52,7 +52,7 @@ int createAndJoinThread(pSocketConnect pSocketCreatAndConnect, void *pClientPara
    return rc;
 }
 
-void * createConnSocketAndSendRecData (void *pParameter) {
+int createConnSocketAndSendRecData (void *pParameter) {
 
 	char receiveBuf[1024] = {0};
 	int receiveBytes = 0;
@@ -63,7 +63,7 @@ void * createConnSocketAndSendRecData (void *pParameter) {
 
 	if (pClientPara == NULL) {
         printf("Client createConnSocketAndSendRecData: paramter is not correct.\r\n");
-        return NULL;
+        return -1;
 	}
 
 	memset(&serverAddr, 0, sizeof(serverAddr));
@@ -76,20 +76,20 @@ void * createConnSocketAndSendRecData (void *pParameter) {
 
 	if (sockFd < 0) {
         printf("Client createConnSocketAndSendRecData: create socket failed for %s. sockFd: %d, errno: %d\r\n", pClientPara->pThreadName, sockFd, errno);
-        return NULL;
+        return -1;
 	}
 
 	int iRet = connect(sockFd, (struct sockaddr *)&serverAddr, sizeof(serverAddr));
 	if ( iRet < 0) {
         printf("Client createConnSocketAndSendRecData: connect socket failed for %s. iRet: %d, errno: %d\r\n", pClientPara->pThreadName, iRet, errno);
-        return NULL ;
+        return -1;
 	}
 
     //send data to server:
 	sendBytes = send(sockFd, pClientPara->pMsg, strlen(pClientPara->pMsg)+1, 0);
 	if (sendBytes < 0) {
 	    printf("Client createConnSocketAndSendRecData: send data failed for %s. sendBytes: %d, errno: %d\r\n", pClientPara->pThreadName, sendBytes, errno);
-        return NULL;
+        return -1;
 	}
 
 	//receive data from server, and print these data:
@@ -109,7 +109,7 @@ void * createConnSocketAndSendRecData (void *pParameter) {
     free(pClientPara->pMsg);
     close(sockFd);
 
-    return NULL;
+    return 0;
 }
 
 
@@ -135,7 +135,7 @@ void main(int argc, char *argv[]) {
     	//clientPara sClientPara;
     	//memset(&sClientPara, 0, sizeof(sClientPara));
 
-    	clientPara *pClientPara =(clientPara *) malloc(sizeof(clientPara));
+    	clientPara *pClientPara = malloc(sizeof(clientPara));
     	if (pClientPara == NULL) {
             printf("Client main: malloc for clientPara failed\r\n");
             return;
@@ -143,14 +143,14 @@ void main(int argc, char *argv[]) {
 
     	pClientPara->port = port;
     	pClientPara->timeout = 1;
-    	pClientPara->pMsg = (char *)malloc(1024);
+    	pClientPara->pMsg = malloc(1024);
     	if (pClientPara->pMsg == NULL) {
     		printf("Client main: malloc for pMsg failed\r\n");
     		return;
     	}
     	memset(pClientPara->pMsg, 0, 1024);
 
-    	pClientPara->pThreadName = (char *)malloc(64);
+    	pClientPara->pThreadName = malloc(64);
     	if (pClientPara->pThreadName == NULL) {
     	    printf("Client main: malloc for pThreadName failed\r\n");
     	    return;

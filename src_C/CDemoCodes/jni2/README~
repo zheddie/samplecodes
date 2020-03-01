@@ -1,0 +1,3 @@
+g++ JavaNativeHelloWorld.cpp -I/opt/ibm/jdk60sr10/include -shared -m32 -o libhelloworld.so
+/opt/ibm/jdk60sr10/bin/javac JavaNativeHelloWorld.java
+

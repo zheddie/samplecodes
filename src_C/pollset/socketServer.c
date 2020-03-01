@@ -13,9 +13,9 @@ typedef struct {
 	char *pMsgToClient;
 } serverPara;
 
-typedef void* (*pPrintReceivedInfo)(void *data);
+typedef void (*pPrintReceivedInfo)(void *data);
 
-void * printReceivedInfo(void *pData) {
+void printReceivedInfo(void *pData) {
 
 	serverPara *pServerPara = (serverPara *)pData;
 
@@ -33,7 +33,6 @@ void * printReceivedInfo(void *pData) {
 	close(pServerPara->sockFd);
 
 	free(pServerPara);
-	return NULL;
 }
 
 int checkPthreadResult(char *pStr, int rc) {
@@ -88,7 +87,7 @@ int createBindAndListenSocket(int port, int backLog) {
 		printf("createBindAndListenSocket: create socket failed. listenSocket: %d, errno: %d\r\n", listenSocket, errno);
 		return -1;
 	}
-	int iRet = bind(listenSocket, (struct sockaddr *)&hostAddr, sizeof(hostAddr));
+	int iRet = bind(listenSocket, (struct socketaddr *)&hostAddr, sizeof(hostAddr));
 	if (iRet < 0) {
 		printf("creatBindAndListenSocket: socket bind failed. iRet: %d, errno: %d\r\n", iRet, errno);
 		return -1;
@@ -111,7 +110,7 @@ void main (int argc, char *argv[]) {
 
 	int acceptSocket = 0;
 	struct sockaddr_in clientAddr;
-	unsigned int clientAddrLen = sizeof(clientAddr);
+	int clientAddrLen = sizeof(clientAddr);
 	memset(&clientAddr, 0, sizeof(clientAddr));
 
 	char receiveBuf[1024];
@@ -131,7 +130,7 @@ void main (int argc, char *argv[]) {
 	while(1) {
 		memset(receiveBuf, 0, sizeof(receiveBuf));
 
-		acceptSocket = accept(listenSocket, (struct sockaddr *)&clientAddr, &clientAddrLen);
+		acceptSocket = accept(listenSocket, (struct socketaddr *)&clientAddr, &clientAddrLen);
         if (acceptSocket < 0) {
         	printf("Server main: accept socket failed. acceptSocket: %d, errno: %d\r\n", acceptSocket, errno);
         	return;
@@ -146,18 +145,18 @@ void main (int argc, char *argv[]) {
 
 
 
-        serverPara *pServerPara = (serverPara *)malloc(sizeof(serverPara));
+        serverPara *pServerPara = malloc(sizeof(serverPara));
         if (pServerPara == NULL) {
         	printf("Server main: malloc for serverPara failed\r\n");
         	return;
         }
-        pServerPara->pMsgFromClient = (char *)malloc(1024);
+        pServerPara->pMsgFromClient = malloc(1024);
         if (pServerPara->pMsgFromClient == NULL) {
 			printf("Server main: malloc for pMsgFromClient failed\r\n");
 			return;
 		}
 
-        pServerPara->pMsgToClient = (char *)malloc(1024);
+        pServerPara->pMsgToClient = malloc(1024);
 		if (pServerPara->pMsgToClient == NULL) {
 			printf("Server main: malloc for pMsgToClient failed\r\n");
 			return;

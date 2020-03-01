@@ -1,0 +1,114 @@
+   extension_count = 13
+   func            = f0e798a8
+   id              = com.ibm.GetPotentialExtendedCapabilities
+   desc            = JVMJ9TI004I Returns via the capabilities_ptr the extended capabilities available at this time.
+   param_count     = 1
+   j=0     name = capabilities_ptr
+                   kind = 96
+                   type = 116
+                   null = 0
+   func            = f0e798b4
+   id              = com.ibm.AddExtendedCapabilities
+   desc            = JVMJ9TI005I Add the new extended capabilities from capabilities_ptr.
+   param_count     = 1
+   j=0     name = capabilities_ptr
+                   kind = 92
+                   type = 116
+                   null = 0
+   func            = f0e798c0
+   id              = com.ibm.RelinquishExtendedCapabilities
+   desc            = JVMJ9TI006I Relinquish the extended capabilities from capabilities_ptr.
+   param_count     = 1
+   j=0     name = capabilities_ptr
+                   kind = 92
+                   type = 116
+                   null = 0
+   func            = f0e798cc
+   id              = com.ibm.GetExtendedCapabilities
+   desc            = JVMJ9TI007I Get the current set of extended capabilities via capabilities_ptr.
+   param_count     = 1
+   j=0     name = capabilities_ptr
+                   kind = 96
+                   type = 116
+                   null = 0
+
+   func            = f0e798d8
+   id              = com.ibm.SetVmTrace
+   desc            = JVMJ9TI011I Add a dynamic -Xtrace option
+   param_count     = 1
+   j=0     name = option
+                   kind = 91
+                   type = 104
+                   null = 0
+   func            = f0e798e4
+   id              = com.ibm.SetVmDump
+   desc            = JVMJ9TI012I Add a dynamic -Xdump option
+   param_count     = 1
+   j=0     name = option
+                   kind = 93
+                   type = 115
+                    null = 0
+   func            = f0e798f0
+   id              = com.ibm.SetVmJlm
+   desc            = JVMJ9TI014I Controls Java Lock Monitor (JLM) (COM_IBM_JLM_START, COM_IBM_JLM_START_TIME_STAMP, COM_IBM_JLM_STOP, COM_IBM_JLM_STOP_TIME_STAMP).
+   param_count     = 1
+   j=0     name = option
+                   kind = 92
+                   type = 104
+                   null = 0
+   func            = f0e798fc
+   id              = com.ibm.SetVmJlmDump
+   desc            = JVMJ9TI015I Request a Java Lock Monitor (JLM) dump.
+   param_count     = 1
+   j=0     name = jlm_dump_ptr
+                   kind = 94
+                   type = 116
+                   null = 0
+   func            = f0e79908
+   id              = com.ibm.AllowMethodInliningWithMethodEnterExit
+   desc            = JVMJ9TI016I Allow inlining in the presence of method enter/exit events (resulting in possibly inaccurate reporting of enter/exit)
+   param_count     = 0
+   func            = f0e79914
+   id              = com.ibm.SetVmAndCompilingControlOptions
+   desc            = JVMJ9TI017I Controls various VM and compiling options.
+   param_count     = 1
+   j=0     name = option
+                   kind = 92
+                   type = 104
+                   null = 0
+   func            = f0e79920
+   id              = com.ibm.jvmtiSetMethodSelectiveEntryExitNotification
+   desc            = JVMJ9TI018I Sets a method for selective entry/exit notification.
+   param_count     = 1
+   j=0     name = method
+                   kind = 91
+                   type = 114
+                   null = 0
+   func            = f0e7992c
+   id              = com.ibm.jvmtiSetExtendedEventNotificationMode
+   desc            = JVMJ9TI019I Sets notification mode for extended events, allowing thread-level selectivity
+   param_count     = 3
+   j=0     name = mode
+                   kind = 92
+                   type = 104
+                   null = 0
+   j=1     name = event_type
+                   kind = 92
+                   type = 104
+                   null = 0
+   j=2     name = event_thread
+                   kind = 91
+                   type = 110
+                   null = 1
+   func            = f0e79938
+   id              = com.ibm.GetOSThreadID
+   desc            = JVMJ9TI020I Gets the OS thread ID from a jthread
+   param_count     = 2
+   j=0     name = thread
+                   kind = 91
+                   type = 110
+                   null = 1
+   j=1     name = threadid_ptr
+                   kind = 96
+                   type = 105
+                   null = 0
