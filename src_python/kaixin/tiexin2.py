@@ -85,7 +85,7 @@ class TIEXIN(flx.Widget):
 			self.xs.set_text('0')
 			self.zl.set_text('0')
 			self.sh.set_text('0')
-			self.md.set_text('密度：0')
+			self.cimi.set_text('密度：0')
 			self.p0.set_text('P0:0')
 			
 app = flx.App(TIEXIN)
