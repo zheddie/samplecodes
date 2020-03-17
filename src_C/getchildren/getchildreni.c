@@ -169,25 +169,25 @@ int unix_getChildren( pid_t pid, long jarray[],
         rCount = getprocs64(procBuf,sizeof(struct procentry64),NULL,0,pidx,BUFFSIZE);
         //printf("rCount=%d,errno=%d\n",rCount,errno);
         for(idx=0;idx<rCount;idx++ ){
-            
-            if(procBuf[idx].pi_ppid == pid && procBuf[idx].pi_state == SACTIVE){
+            printf("rCount:%d,pid:%d,ppid:%d,stime:%ld,state:%d\n",rCount,procBuf[idx].pi_pid,procBuf[idx].pi_ppid,procBuf[idx].pi_start,procBuf[idx].pi_state);
+            if((pid == 0 || procBuf[idx].pi_ppid == pid) && procBuf[idx].pi_state == SACTIVE){
                 printf("count:%d,pid:%d,ppid:%d,stime:%ld,state:%d\n",count,procBuf[idx].pi_pid,procBuf[idx].pi_ppid,procBuf[idx].pi_start,procBuf[idx].pi_state);
                 if (count < arraySize) {
                     pids[count] = (long)(procBuf[idx].pi_pid);
-                    printf("cp0,count:%d,pid:%d-->%ld\n",count,procBuf[idx].pi_pid,pids[count]);
+                    //printf("cp0,count:%d,pid:%d-->%ld\n",count,procBuf[idx].pi_pid,pids[count]);
                     if (ppids != NULL) {
                         // Store the parentPid
                         ppids[count] =  (long)(procBuf[idx].pi_ppid);
-                        printf("cp1,count:%d,ppid:%d-->%ld\n",count,procBuf[idx].pi_ppid,ppids[count]);
+                        //printf("cp1,count:%d,ppid:%d-->%ld\n",count,procBuf[idx].pi_ppid,ppids[count]);
                     }
                     if (stimes != NULL) {
                         // Store the process start time
                         stimes[count] = (long) (procBuf[idx].pi_start * 1000);
-                        printf("cp2,count:%d,start:%d-->%ld\n",count,procBuf[idx].pi_start,stimes[count]);
+                        //printf("cp2,count:%d,start:%d-->%ld\n",count,procBuf[idx].pi_start,stimes[count]);
                     }
                 }
                 count++;
-                printf("cp3\n");
+                //printf("cp3\n");
             }
         }
     }while(rCount > 0);
@@ -210,7 +210,7 @@ int main(int argc, char * argv[]){
     if(argc>1){
         pid = (pid_t) atoi(argv[1]);
     }
-    if(pid !=0){
+    if(pid >=0){
         cc = unix_getChildren(pid,pids,ppids,starttime,20);
         printf("Child of pid[%d]:%d\n",pid,cc);
         for(int x = 0;x<cc;x++){

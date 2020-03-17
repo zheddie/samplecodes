@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
+# This is written by zheddie@163.com. 
+# First accepted version by cusotmer.20200309.
 from flexx import flx
 
 class TIEXIN(flx.Widget):
@@ -19,7 +20,16 @@ class TIEXIN(flx.Widget):
 				self.hd = flx.LineEdit(text='0')
 				self.hd_unit= flx.Label(html='<i>毫米</i>')
 			with flx.HBox():
+				self.dpxs_lbl= flx.Label(html='<i>叠片系数</i>')
+				self.dpxs = flx.LineEdit(text='1')
+				self.dpxs_unit= flx.Label(html='<i> </i>')
+			with flx.HBox():
+				self.kdhd_lbl= flx.Label(html='<i>片型宽度*厚度：</i>')
+				self.kdhd = flx.LineEdit(flex=2,text='0*0')
+				self.kdhd_unit= flx.Label(html='<i>毫米x毫米</i>')
+			with flx.HBox():
 				self.addb = flx.Button(text='+')
+				self.multb = flx.Button(text='x')
 			with flx.HBox():
 				self.mj_lbl= flx.Label(html='<i>输入截面积：</i>')
 				self.mj = flx.LineEdit(text='0')
@@ -37,7 +47,7 @@ class TIEXIN(flx.Widget):
 				self.cimi = flx.Label(flex=1)
 			with flx.HBox():
 				self.xs_lbl= flx.Label(html='<i>系数：</i>')
-				self.xs = flx.LineEdit(text='0')
+				self.xs = flx.LineEdit(text='1')
 				self.xs_unit= flx.Label(html='<i> </i>')
 			with flx.HBox():
 				self.zl_lbl= flx.Label(html='<i>重量：</i>')
@@ -56,13 +66,26 @@ class TIEXIN(flx.Widget):
 	# def greet(self, *events):
 	# 	self.label.set_text('hi ' + self.firstname.text + ' ' + self.lastname.text)
 
-	@flx.reaction('addb.pointer_click','xiaoji.pointer_click','jsp0.pointer_click','cz.pointer_click')
+	@flx.reaction('addb.pointer_click','xiaoji.pointer_click','jsp0.pointer_click','cz.pointer_click','multb.pointer_click')
 	def _button_clicked(self, *events):
 		ev = events[-1]
 		if(ev.source ==self.addb):
-			huizong = str(float(self.kd.text)*float(self.hd.text)/100)
+			huizong = str(float(self.kd.text)*float(self.hd.text)*float(self.dpxs.text)/100)
 			if(huizong != 'NaN'):
 				self.mj.set_text(str(float(huizong)+float(self.mj.text)))
+		if(ev.source ==self.multb):
+			mults = self.kdhd.text.split('+')
+			#print(mults)
+			sumall = 0.
+			for onemul in mults:
+				xx = onemul.split('*')
+				#print(xx)
+				sumall+= float(xx[0])*float(xx[1])
+			#print(sumall)
+			huizong = str(sumall*float(self.dpxs.text)/100)
+			#print(huizong)
+			if(huizong != 'NaN'):
+				self.mj.set_text(str(huizong))
 		if(ev.source == self.xiaoji):
 			dianya = 400.0
 			if(self.dy.text != '0'):
@@ -79,10 +102,12 @@ class TIEXIN(flx.Widget):
 		if(ev.source == self.cz):
 			self.kd.set_text('0')
 			self.hd.set_text('0')
+			self.kdhd.set_text('0x0')
 			self.mj.set_text('0')
+			self.dpxs.set_text('1')
 			self.zs.set_text('0')
 			self.dy.set_text('0')
-			self.xs.set_text('0')
+			self.xs.set_text('1')
 			self.zl.set_text('0')
 			self.sh.set_text('0')
 			self.cimi.set_text('密度：0')
