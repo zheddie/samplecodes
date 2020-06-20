@@ -1,0 +1,34 @@
+#define _MULTI_THREADED
+#include <pthread.h>
+#include <stdio.h>
+#include <unistd.h>
+#include <string.h>
+#include <stdlib.h>
+#include <qp2user.h>
+#include <qp2shell2.h>
+//#include "check.h"
+
+
+int main(int argc, char **argv)
+{
+	/*try to call pase program which did same thing as below, we expect that this would not crash*/
+	char *pathname= NULL;
+	char ** argvv = NULL;
+	pathname=(char *)malloc(sizeof("/home/zhanggan/dvdzero")+1);
+	strcpy(pathname,"/home/zhanggan/dvdzero");
+	QP2SHELL2(pathname,NULL);
+	int r=1;
+	int izero = 0;
+
+	double zero = 0.0;
+	double average = 1;
+	double zz = +0.0;
+	/*  r = r/izero;
+	    printf("r=%d\n",r);
+	    */
+	average = average/zero;
+	printf("average=%f\n",average);
+	zz = zz/zero;
+	printf("zz=%f\n",zz);
+	return 0;
+}

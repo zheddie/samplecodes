@@ -1,0 +1,86 @@
+#include <stdio.h>
+#include <math.h>
+#include <recio.h>
+#include <iconv.h>
+#include <string.h>
+#include <stdlib.h>
+#include <errno.h>
+ 
+typedef struct {
+    char        filler[5];
+} aggregate;
+ 
+/*#pragma mapinc("datafile","GAVIN/PASEDATA(*all)","both",,,"")
+#include "datafile"
+#pragma argument(ileProcedure, nowiden) 
+not necessary */
+ 
+/*
+ * The arguments and function result for this ILE procedure
+ * must be equivalent to the values presented to _ILECALL
+ * function in the i5/OS program
+ */
+int ileProcedure(int         arg1,
+                 char        *arg2,
+                 long      arg3,
+                 char        arg4[2],
+                 aggregate   arg5,
+                 short       arg6)
+{
+    char         fromcode[33];
+    char         tocode[33];
+    iconv_t      cd;     /* conversion descriptor */
+    char         *src;
+    char         *tgt;
+    size_t       srcLen;
+    size_t       tgtLen;
+    int          result;
+	double tt = 1.0;
+	double zero =0;
+	tt = tt*5.0;
+	printf("zg.ileProcedure.tt=%f\n",tt);
+
+    /*
+     * Open a conversion descriptor to convert CCSID 37
+     * (EBCDIC) to CCSID 819 (ASCII), that is used for
+     * any character data returned to the caller
+     */
+    memset(fromcode, 0, sizeof(fromcode));
+    strcpy(fromcode, "IBMCCSID000370000000");
+    memset(tocode, 0, sizeof(tocode));
+    strcpy(tocode, "IBMCCSID00819");
+    cd = iconv_open(tocode, fromcode);
+    if (cd.return_value == -1)
+    {
+        printf("iconv_open failed\n");
+        return -1;
+    }
+     /*
+      * If arg1 equals one, return constant text (converted
+      * to ASCII) in the buffer addressed by arg2. For any
+      * other arg1 value, open a file and read some text,
+      * then return that text (converted to ASCII) in the
+      * buffer addressed by arg2
+      */
+    if (arg1 == 1)
+    {
+        src = "Sample 1 output text";
+        srcLen = strlen(src) + 1;
+        tgt = arg2; /* iconv output to arg2 buffer */
+        tgtLen = srcLen;
+        iconv(cd, &src, &srcLen, &tgt, &tgtLen);
+ 
+        result = 1;
+    }
+    else
+    {
+        printf("fopen(\"gavin/PASEDATA\", \"r\") failed, "
+                    "errno = NOERROR\n");
+    }
+      /*
+       * Close the conversion descriptor, and return the
+       * result value determined above
+       */
+      iconv_close(cd);
+      return result;
+}

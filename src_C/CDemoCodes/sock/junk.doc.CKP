@@ -1,0 +1,3 @@
+
+! java/security/AccessController.doPrivileged(Ljava/security/PrivilegedExceptionAction;Ljava/security/AccessControlContext;)Ljava/lang/Object; cannot be translated
+HelloWorld constructor

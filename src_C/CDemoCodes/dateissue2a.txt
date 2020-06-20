@@ -1,0 +1,18 @@
+Server Version is: 2.2
+Running the dev level of nativeMacro to match the Server Version.
+processinfo B003A000088DC000
+Running macro: processinfo B003A000088DC000
+
+There are 1251 tasks in the system.  The processes are...
+
+*** FAILURE *** Failure getting information for TDE B003A000088DC000
+*** FAILURE ***    CppMacroPiranhaServer: memory could not be copied from source address: address=0xB003A000088DC038  length=   8
+
+===============================================================
+Total number of processes information provided for...0
+Total number of threads information provided for.....0
+Total number of tasks in the system..................1251
+
+*** End of processinfo macro output ***
+
+

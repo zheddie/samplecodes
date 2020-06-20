@@ -1,0 +1,3 @@
+xlC_r -O3 -DIPv6_FUNCTION_SUPPORT -q64 -q mbcs -qlanglvl=extended -qarch=ppc -qinfo=pro -qalias=noansi -qxflag=LTOL:LTOL0 -qsuppress=1506-1108 -D_XOPEN_SOURCE_EXTENDED=1 -D_ALL_SOURCE -DRS6000 -DAIXPPC -D_LARGE_FILES -DPPC64 -g -qtbtable=full -qlist -qsource -DJ9OS_I5 -qhalt=w -I. -I/afs/rchland.ibm.com/lande/shadow/dev2000/osxpf/v6r1m0f.xj9/bld/shadow/pase.pgm/j9.xj9/jdk60/64bit26/jre/lib/ppc64/compressedrefs/include -qtbtable=full -qlist -qsource -c -o JavaNativeHelloWorld.o JavaNativeHelloWorld.cpp 
+   
+ld -b64 -G -bnoentry -bernotok -bE:JavaNativeHelloWorld.exp -L. -o libhelloworld.so JavaNativeHelloWorld.o -lc_r -lC_r -lm -lpthread 

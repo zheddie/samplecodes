@@ -66,7 +66,6 @@ int main(int argc, char *argv[]) {
 
 	listen(listenfd, MAXCONN);
 
-	pollset_t psid2 = pollset_create(MAXCONN);
 	pollset_t psid = pollset_create(MAXCONN);
 	printf("zg.info.pollset_create,psid=%d,pid=%d\n",psid,getpid());
 	if(psid <0){
@@ -99,7 +98,7 @@ int main(int argc, char *argv[]) {
 		printf("Waiting on poll,fds=%p,(pollset_len=%d)...\n",fds, fds_len);
 		nfds = pollset_poll(psid,fds,fds_len,timeout);
 		/*rc = poll(fds, nfds, timeout);*/
-		printf("zg.info.pollset_poll,nfds=%d\n",nfds);
+		printf("zg.info.pollset_poll,nfds=%d\n",fds,nfds);
 		/***********************************************************/
 		/* Check to see if the poll call failed.                   */
 		/***********************************************************/
