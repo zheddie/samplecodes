@@ -1,4 +1,4 @@
 void printa(char *);
 void printb(char *);
-char const * MODP=NULL;
+char const * MODP;
 
