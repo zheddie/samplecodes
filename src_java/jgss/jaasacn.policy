@@ -1,0 +1,4 @@
+grant codebase "file:./JaasAcn.jar" {
+   permission javax.security.auth.AuthPermission 
+                    "createLoginContext.JaasSample";
+};
