@@ -7,8 +7,8 @@
 #include <cmath>
 #endif
 
-
 using namespace std;
+
 int main(int argc , char * argv[]){
 	if (argc < 2) {
 	// report version
@@ -17,7 +17,7 @@ int main(int argc , char * argv[]){
 		cout << "Usage: " << argv[0] << " number" << endl;
 		return (1);
 	}
-	double inputValue = atof(argv[1]);
+	double inputValue = stod(argv[1]);
 #ifdef USE_MYMATH
   cout <<"USE_MYMATH"<<endl;
   const double outputValue = mysqrt(inputValue);
@@ -25,6 +25,6 @@ int main(int argc , char * argv[]){
   cout <<"NO USE_MYMATH"<<endl;
   const double outputValue = sqrt(inputValue);
 #endif
-	cout <<"arg0:"<< argv[0] << ",arg1:"<< argv[1]<<",sqrt:"<<outputValue<<endl;
+	cout <<"arg0:"<< argv[0] << ",sqrt of "<< argv[1]<<" is "<<outputValue<<endl;
 	return (0);
 }
