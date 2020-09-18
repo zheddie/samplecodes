@@ -1,0 +1,71 @@
+.SUFFIXES:
+.SUFFIXES:	.H .C .h .c .o 
+
+CC		= xlC
+
+.C.o:
+	$(CC) -c $< 
+
+
+all:	server client server_unix client_unix client_udp server_udp
+server:	server.o
+	$(CC) -o $@ server.o
+client:	client.o
+	$(CC) -o $@ client.o
+server_unix:	server_unix.o
+	$(CC) -o $@ server_unix.o
+client_unix:	client_unix.o
+	$(CC) -o $@ client_unix.o
+server_udp:	server_udp.o
+	$(CC) -o $@ server_udp.o
+client_udp:	client_udp.o
+	$(CC) -o $@ client_udp.o
+
+clean:
+	rm -f *.o
+	rm -f core
+	rm -rf CC\.*
+
+	
+# DO NOT DELETE THIS LINE -- make depend depends on it.
+
+client.o: inet.h /usr/include/stdio.h /usr/include/standards.h
+client.o: /usr/include/sys/types.h /usr/include/sys/inttypes.h
+client.o: /usr/include/sys/socket.h /usr/include/sys/uio.h
+client.o: /usr/include/netinet/in.h /usr/include/arpa/inet.h
+client.o: /usr/include/string.h /usr/include/stdlib.h /usr/include/unistd.h
+client.o: /usr/include/sys/access.h /usr/include/assert.h
+client_udp.o: inet.h /usr/include/stdio.h /usr/include/standards.h
+client_udp.o: /usr/include/sys/types.h /usr/include/sys/inttypes.h
+client_udp.o: /usr/include/sys/socket.h /usr/include/sys/uio.h
+client_udp.o: /usr/include/netinet/in.h /usr/include/arpa/inet.h
+client_udp.o: /usr/include/string.h /usr/include/stdlib.h
+client_udp.o: /usr/include/unistd.h /usr/include/sys/access.h
+client_udp.o: /usr/include/assert.h
+client_unix.o: /usr/include/string.h /usr/include/stdlib.h
+client_unix.o: /usr/include/unistd.h /usr/include/sys/access.h
+client_unix.o: /usr/include/standards.h /usr/include/stdio.h
+client_unix.o: /usr/include/sys/types.h /usr/include/sys/inttypes.h
+client_unix.o: /usr/include/sys/socket.h /usr/include/sys/uio.h
+client_unix.o: /usr/include/sys/un.h /usr/include/assert.h
+server.o: inet.h /usr/include/stdio.h /usr/include/standards.h
+server.o: /usr/include/sys/types.h /usr/include/sys/inttypes.h
+server.o: /usr/include/sys/socket.h /usr/include/sys/uio.h
+server.o: /usr/include/netinet/in.h /usr/include/arpa/inet.h
+server.o: /usr/include/time.h /usr/include/string.h /usr/include/stdlib.h
+server.o: /usr/include/unistd.h /usr/include/sys/access.h
+server.o: /usr/include/assert.h
+server_udp.o: inet.h /usr/include/stdio.h /usr/include/standards.h
+server_udp.o: /usr/include/sys/types.h /usr/include/sys/inttypes.h
+server_udp.o: /usr/include/sys/socket.h /usr/include/sys/uio.h
+server_udp.o: /usr/include/netinet/in.h /usr/include/arpa/inet.h
+server_udp.o: /usr/include/time.h /usr/include/string.h /usr/include/stdlib.h
+server_udp.o: /usr/include/unistd.h /usr/include/sys/access.h
+server_udp.o: /usr/include/assert.h
+server_unix.o: /usr/include/time.h /usr/include/string.h
+server_unix.o: /usr/include/stdlib.h /usr/include/unistd.h
+server_unix.o: /usr/include/sys/access.h /usr/include/standards.h
+server_unix.o: /usr/include/stdio.h /usr/include/sys/types.h
+server_unix.o: /usr/include/sys/inttypes.h /usr/include/sys/socket.h
+server_unix.o: /usr/include/sys/uio.h /usr/include/sys/un.h
+server_unix.o: /usr/include/assert.h

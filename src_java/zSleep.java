@@ -5,21 +5,24 @@ public class zSleep {
 	 * @param args
 	 * @throws InterruptedException 
 	 */
-	public int age;
 	public static void main(String[] args) throws InterruptedException {
 		zSleep zw = new zSleep();
-		zw.age = 10;
-		zw.setName("HelloName");
-		zw.mywait(args[0]);
+		if(args.length> 0){
+			zw.mywait(args[0]);
+		}else{
+			zw.mywait("3");
+		}
 		// TODO Auto-generated method stub
 	}
-	public void setName(String s){
-	}
+
 	public void mywait(String s){
-		Integer iT = new Integer(s);
+		int iT = Integer.parseInt(s);
 		System.out.println("In waiting....");
 		try{
-			Thread.sleep(1000*60*iT.intValue());
+			for(int x=0;x<iT*10;x++){
+				Thread.sleep(1000*6);
+				System.out.println(x);
+			}
 		}catch ( Exception e){
 			e.printStackTrace();
 		}

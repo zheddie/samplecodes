@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string.h>
 using namespace std;
 class People{
 public:
@@ -31,12 +32,22 @@ public:
 			free(name);
 		}
 	}
+	virtual bool canrun(){
+		return true;
+	}
 };
 int main(){
 	People s;
 	People * sp = new People("zhanggan",40);
-	cout << "sizeof(int)="<<sizeof(int)<<",sizeof(People)="<<sizeof(People)<<",sizeof(s)="<<sizeof(s)<<",sizeof(*sp)="<<sizeof(*sp)<<endl;
-	cout<< "&s="<<&s<<",sp="<<sp<<endl;
+	cout << "sizeof(int)="<<sizeof(int)<<",sizeof(void *)="<<sizeof(void *)<<",sizeof(People)="<<sizeof(People)<<",sizeof(s)="<<sizeof(s)<<",sizeof(*sp)="<<sizeof(*sp)<<endl;
+	cout<< "&s="<<&s<<",sp="<<static_cast<void *>(sp)<<endl;
 	cout<<"sp->name="<<sp->getName()<<",sp->age="<<sp->getage()<<endl;
-	cout<<"&(sp->age)="<<&(sp->age)<<",&(sp->name)="<<&(sp->name)<<endl;
+	cout<<"&(sp->age)="<<static_cast<void *>(&(sp->age))<<",&(sp->name)="<<static_cast<void *>(&(sp->name))<<endl;
+	/*
+ * 	cout<<"&(sp->getName())="<<static_cast<void *>(&(sp->getName))<<endl;
+	cout<<"&(sp->getage())="<<static_cast<void *>(&(sp->getage))<<endl;
+	void * p =static_cast<void *>(&(sp->age));
+	void *pf = (void *) (p-8);
+	cout <<"fpointer="<<<static_cast<void *>(*pf)<<endl;
+*/
 }

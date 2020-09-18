@@ -1,0 +1,22 @@
+/********************************************************************/
+/* Product:   XPF                                                   */
+/* Component: mrdb.xpf                                              */
+/* Part:      QmrdbConfig                                           */
+/* Function:  Binding Source used in creating service pgm           */
+/*            QMRDBCNFG.                                            */
+/*                                                                  */
+/*            NOTE:  ALWAYS ADD NEW EXPORTS AT THE END OF THE LIST! */
+/*                                                                  */
+/* FLAG&REANSON REL    DATE   PGMR     COMMENT                      */
+/* ------------ ------ ------ -------- ---------------------------- */
+/* $A0=         v7r4m0 160310 SBSMITH  New                          */
+/********************************************************************/
+  STRPGMEXP  SIGNATURE('QMRDBCNFG     ')
+      EXPORT  SYMBOL  ("createLocalUserSpace")
+      EXPORT  SYMBOL  ("createSharedUserSpace")
+      EXPORT  SYMBOL  ("destroyLocalUserSpace")
+      EXPORT  SYMBOL  ("destroySharedUserSpace")
+      EXPORT  SYMBOL  ("initializeLocalUserSpace")
+      EXPORT  SYMBOL  ("initializeSharedUserSpace")
+  ENDPGMEXP
+

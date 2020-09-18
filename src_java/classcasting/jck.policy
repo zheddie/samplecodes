@@ -1,0 +1,7 @@
+// Grant tests all permissions
+// SCCS: @(#)jck.policy 99/08/31
+
+grant { 
+	permission java.security.AllPermission;
+};
+

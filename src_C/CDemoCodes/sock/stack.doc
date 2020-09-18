@@ -1,0 +1,124 @@
+   Java   LHelloWorld; main([Ljava/lang/String;)V 182
+   Java   LHelloWorld; foo1(I)V 11
+   Native LHelloWorld; foo2(I)V -1
+   Java   LHelloWorld; foo3(I)V 11
+   Java   LHelloWorld; foo4(I)V 11
+   Java   LHelloWorld; foo5(I)V 11
+   Java   LHelloWorld; foo6(I)V 11
+   Java   LHelloWorld; foo7(I)V 11
+   Java   LHelloWorld; foo8(I)V 11
+   Java   LHelloWorld; foo9(I)V 11
+   Java   LHelloWorld; foo10(I)V 11
+   Java   LHelloWorld; foo11(I)V 11
+   Java   LHelloWorld; foo12(I)V 11
+   Java   LHelloWorld; foo13(I)V 11
+   Java   LHelloWorld; foo14(I)V 11
+   Java   LHelloWorld; foo15(I)V 11
+   Java   LHelloWorld; foo16(I)V 11
+   Java   LHelloWorld; foo17(I)V 11
+   Java   LHelloWorld; foo18(I)V 11
+   Java   LHelloWorld; foo19(I)V 11
+   Java   LHelloWorld; foo20(I)V 11
+   Java   LHelloWorld; foo21(I)V 11
+   Java   LHelloWorld; foo22(I)V 11
+   Java   LHelloWorld; foo23(I)V 11
+   Java   LHelloWorld; foo24(I)V 11
+   Java   LHelloWorld; foo25(I)V 11
+   Java   LHelloWorld; foo26(I)V 11
+   Java   LHelloWorld; foo27(I)V 11
+   Java   LHelloWorld; foo28(I)V 11
+   Java   LHelloWorld; foo29(I)V 11
+   Java   LHelloWorld; foo30(I)V 18
+   Native LHelloWorld; foo()I -1
+
+
+
+       QP0ZSPWP   QSYS                            _CXX_PEP__Fv
+       QP0ZPCPN   QSYS          132               Qp0zPJNewProcess
+       QP0ZPCPN   QSYS          266               Qp0zNewProcess
+       QP0ZPCPN   QSYS          210               InvokeTargetPgm__FP11qp0z_p >
+       QZSHCHLD   QSHELL                          _CXX_PEP__Fv
+       QZSHCHLD   QSHELL        6                 main
+       QZSHSRV1   QSHELL        153               QzshChildMain
+       QZSHSRV1   QSHELL        183               evalcmdpart2__FP4nodeiP7bac >
+       QZSHSRV1   QSHELL        1                 shellexec__FPcPPcT2
+       QP0ZEXEC   QSYS          49                Qp0zExecve
+       QP0ZEXEC   QSYS          6                 run__14Qp0zExecutableFv
+       QZSHSH     QSHELL                          _CXX_PEP__Fv
+       QZSHSH     QSHELL        16                main
+       QZSHSRV1   QSHELL        120               QzshMain
+       QZSHSRV1   QSHELL        52                cmdloop__Fi
+       QZSHSRV1   QSHELL        118               evaltree__FP4nodei
+       QZSHSRV1   QSHELL        260               evalcommand__FP4nodeiP7back >
+       QZSHSRV1   QSHELL        130               evalcmdpart2__FP4nodeiP7bac >
+       QZSHSRV1   QSHELL        15                execcmd__FiPPc
+       QZSHSRV1   QSHELL        1                 shellexec__FPcPPcT2
+       QP0ZEXEC   QSYS          49                Qp0zExecve
+       QP0ZEXEC   QSYS          6                 run__14Qp0zExecutableFv
+       QJVATOOLS  QSYS                            _CXX_PEP__Fv
+       QJVATOOLS  QSYS          3                 main
+       QJVAQSHCMD QSYS          537               QjvaQshCmd
+       QJVAJVM    QSYS          215               RunJava
+       QJVAJVM    QSYS          2                 CallStaticVoidMethod__7JNIE >
+       QXJ9VM     QJVM50        10                CallStaticVoidMethodV__FP7J >
+       QXJ9VM     QJVM50        5                 iCallPase__14Qxj9PaseAccess >
+       QP2USER    QSYS          1                 Qp2CallPase
+       QP2USER2   QSYS          9                 __Qp2CallPase2
+       QP2USER2   QSYS          2                 runpase_common__FiPvT2
+  P    unix                                       <callbackrtn>
+  P    libi5osenv.so            2871    00000064  J9_i5OS_CallStaticVoidMetho >
+  P    libj9vm23.so             288     0000003C  callStaticVoidMethodV
+  P    libj9vm23.so             635     00000034  gpCheckCallin
+  P    libj9vm23.so             484     00000050  gpProtectAndRun
+  P    libj9prt23.so            450     0000016C  j9sig_protect
+  P    libj9vm23.so             1916    00000018  signalProtectAndRunGlue
+  P    libj9vm23.so             351     00000024  gpProtectedRunCallInMethod
+<insert java stack here>
+  P    libj9vm23.so             788     00000500  VMprJavaSendNative
+  P    libhello.so              160     00000028  Java_HelloWorld_foo2
+  P    libhello.so              154     0000007C  normal_c_method
+  P    libj9vm23.so             30      0000004C  callVirtualVoidMethod
+<insert java stack here>
+  P    libj9vm23.so             838     00000598  VMprJavaSendNative
+  P    libhello.so              88      000000EC  Java_HelloWorld_foo
+  P    libc.a(shr.o)                    000000DC  fgetc
+  P    libc.a(shr.o)                    000003B4  __filbuf
+  P+   libc.a(shr.o)                    00000018  malloc_common_54_36
+  P    libc.a(shr.o)                    000001A8  read
+  P    unix                             00000008  <syscall32>:kread
+       QP2USER2   QSYS          5                 pasescILE_stdin
+       QP2USER2   QSYS          22                read__14Qp2InputStreamFiPvU >
+       QP0LLIB1   QSYS          14                read
+
+
+
+
+<clip>
+       QJVAJVM    QSYS          2                 CallStaticVoidMethod__7JNIE >
+       QXJ9VM     QJVM50        10                CallStaticVoidMethodV__FP7J >
+       QXJ9VM     QJVM50        5                 iCallPase__14Qxj9PaseAccess >
+       QP2USER    QSYS          1                 Qp2CallPase
+       QP2USER2   QSYS          9                 __Qp2CallPase2
+       QP2USER2   QSYS          2                 runpase_common__FiPvT2
+  P    unix                                       <callbackrtn>
+  P    libi5osenv.so            2871    00000064  J9_i5OS_CallStaticVoidMetho >
+  P    libj9vm23.so             288     0000003C  callStaticVoidMethodV
+  P    libj9vm23.so             635     00000034  gpCheckCallin
+  P    libj9vm23.so             484     00000050  gpProtectAndRun
+  P    libj9prt23.so            450     0000016C  j9sig_protect
+  P    libj9vm23.so             1916    00000018  signalProtectAndRunGlue
+  P    libj9vm23.so             351     00000024  gpProtectedRunCallInMethod
+  P    libjclscar_23.so         609     00000068  java_lang_Object_wait
+  P    libjclscar_23.so         181     00000144  jclCallMonitorWaitInterrupt >
+  P    libj9thr23.so            2980    00000014  j9thread_monitor_wait_inter >
+  P    libj9thr23.so            3194    00000378  monitor_wait
+  P    libpthreads.a(shr_xpg >          00000264  pthread_cond_timedwait
+  P    libpthreads.a(shr_xpg >          0000004C  _cond_wait
+  P    libpthreads.a(shr_xpg >          00000448  _cond_wait_local
+  P    libpthreads.a(shr_xpg >          000002A4  _event_wait
+  P+
+  P    libpthreads.a(shr_xpg >          000000D8  _event_sleep
+  P    unix                             00000008  <syscall32>:thread_tsleep
+
+
+B02FA00006126000

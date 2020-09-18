@@ -1,22 +1,21 @@
 #include <iostream>
 using namespace std;
-template<typename func_t>
-float callop3(float y,func_t op){
-	op();
-	return(y);
-}
+
 int main(){
-	float x=1.0;
-	cout<<"in main,&x="<<&x<<endl;
-	auto qqq = [=]{
-		cout<<"in qqq,x:"<<x<<endl;
-		cout<<"in qqq,&x="<<&x<<endl;
-	};
-	qqq();
-	float rt = callop3(x,[=]{
-		cout<<"in lmb,x:"<<x<<endl;
-		cout<<"in lmb,&x="<<&x<<endl;
-	});
-	cout << "rt="<<rt<<endl;
+	auto x = 8;
+	auto y= 42;
+	auto qqq = [=](int a,int b){
+		std::cout<<"x="<<x<<",&x="<<&x<<std::endl;
+		std::cout<<"y="<<y<<",&y="<<&y<<std::endl;
+		std::cout<<"a="<<a<<",&a="<<&a<<std::endl;
+		std::cout<<"b="<<b<<",&b="<<&b<<std::endl;
+		};
+	x=y=77;
+	std::cout<<"out of qqq:x="<<x<<",&x="<<&x<<std::endl;
+	qqq(x,y);
+	std::cout<<"out of qqq:y="<<y<<",&y="<<&y<<std::endl;
+	qqq(x,y);
+	std::cout<<"finally:y="<<y<<",&y="<<&y<<std::endl;
 	return(0);
+
 }
