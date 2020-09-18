@@ -12,7 +12,7 @@ typedef struct {
 void * GCThread( void * parm){
 	ThreadParm * p = (ThreadParm *)parm;
 	printf("p->threadID=%d\n",p->threadID);
-};
+}
 
 
 
