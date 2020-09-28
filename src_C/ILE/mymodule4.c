@@ -20,7 +20,7 @@ not necessary */
  * must be equivalent to the values presented to _ILECALL
  * function in the i5/OS program
  */
-int ileProcedure2(int         arg1,
+int ileProcedure(int         arg1,
                  char        *arg2,
                  long      arg3,
                  char        arg4[2],
@@ -28,10 +28,10 @@ int ileProcedure2(int         arg1,
                  short       arg6)
 {
 	printf("in ILE, before double\n");
-	sleep(20);
+	// sleep(20);
 	double x=4.0/2.0;
 	printf("in ILE, after double\n");
-	sleep(20);
+	// sleep(20);
 
 	printf("zg.inILEProcedure,x=%f\n",x);
 	return 0;
@@ -49,11 +49,11 @@ not necessary */
 int dividzero(int s)
 {
 	printf("in ILE, before double\n");
-	sleep(20);
+	// sleep(20);
 	double x=4.0;
 	x = x/0.0;
 	printf("in ILE , ater double\n");
-	sleep(20);
+	// sleep(20);
 	printf("zg.inILEProcedure,x=%f\n",x);
 	return 0;
 }
