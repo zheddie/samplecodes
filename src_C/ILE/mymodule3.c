@@ -13,7 +13,41 @@ typedef struct {
 // #pragma mapinc("datafile","SHUPE/PASEDATA(*all)","both",,,"")
 // #include "datafile"
 // #pragma argument(ileProcedure, nowiden) /* not necessary */
+<<<<<<< HEAD
  
+=======
+  
+
+int ileProcedure2(int         arg1,
+                 char        *arg2,
+                 long      arg3,
+                 char        arg4[2],
+                 aggregate   arg5,
+                 short       arg6)
+{
+	printf("in ILE, before double\n");
+	sleep(20);
+	double x=4.0/2.0;
+	printf("in ILE, after double\n");
+	sleep(20);
+
+	printf("zg.inILEProcedure,x=%f\n",x);
+	return 0;
+}
+
+int dividzero(int s)
+{
+	printf("in ILE, before double\n");
+	sleep(20);
+	double x=4.0;
+	x = x/0.0;
+	printf("in ILE , ater double\n");
+	sleep(20);
+	printf("zg.inILEProcedure,x=%f\n",x);
+	return 0;
+}
+
+>>>>>>> bde6ccb09f6a1ce4062c72e3ed06ec0e3230d790
 /*
  * The arguments and function result for this ILE procedure
  * must be equivalent to the values presented to _ILECALL

@@ -12,7 +12,27 @@
 #include <stdio.h>
 #include "as400_types.h"
 #include "as400_protos.h"
+<<<<<<< HEAD
  
+=======
+
+typedef union _zgILEpointer {
+#if !(defined(_AIX) || defined(KERNEL))
+#pragma pack(1,16,_ILEpointer)  /* Force sCC quadword alignment */
+#endif
+/* CAUTION: Some compilers only provide 64-bits for long double */
+    long double   align;  /* Force xlc quadword alignment
+           (with -qldbl128 -qalign=natural) */
+#ifndef _AIX
+    void    *openPtr; /* MI open pointer (tagged quadword) */
+#endif
+    struct {
+  char    filler[16-sizeof(uint64)];
+  address64_t addr; /* (PASE) memory address */
+    } s;
+} zgILEpointer;
+
+>>>>>>> bde6ccb09f6a1ce4062c72e3ed06ec0e3230d790
 /*
  * init_pid saves the process id (PID) of the process that
  * extracted the ILEpointer addressed by ILEtarget.
