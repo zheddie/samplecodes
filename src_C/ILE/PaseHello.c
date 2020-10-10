@@ -8,6 +8,7 @@
 #include <stdlib.h>
 #include <stdio.h>
  
+#pragma pack(1,16,_ILEpointer)  /* Force sCC quadword alignment */
 
 void main (int argc , char *argv[]) {
 	int secs= 30,index=0;
