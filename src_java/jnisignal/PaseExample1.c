@@ -37,7 +37,7 @@ int main(){
 
 }
 
-/*
+/*	
  * Class:     PaseExample1
  * Method:    getStringNative
  * Signature: ()Ljava/lang/String;
@@ -80,15 +80,18 @@ void sighandlermain(int s){
 	printf("Drop in sighandler.input=%d\n",s);
 	sleep(3);
 	printf("returned from sighandler after 3 seconds\n");
+	signal(SIGTERM,sighandlermain);
 }
 void sighandler(int s){
 	printf("Drop in sighandler.input=%d\n",s);
-    unsigned long *pinNative = (unsigned long *)((char *) gEnv + 2360);
-   	unsigned long *pprivateflags = (unsigned long *)((char *) gEnv +424);
-	
+    // unsigned long *pinNative = (unsigned long *)((char *) gEnv + 2360);
+   	// unsigned long *pprivateflags = (unsigned long *)((char *) gEnv +424);
+ 	unsigned long *pinNative = (unsigned long *)((char *) gEnv + 1376);
+   	unsigned long *pprivateflags = (unsigned long *)((char *) gEnv +220);	
    	printf("in sighandler[tid:%ld]: inNative=%lu,privateflags=%lu\n",GETTID,*pinNative,*pprivateflags);
 	*pinNative = 1L;
    	printf("in sighandler[tid:%ld]: inNative=%lu,privateflags=%lu\n",GETTID,*pinNative,*pprivateflags);
 	sleep(3);
 	printf("returned from sighandler after 3 seconds\n");
+	signal(SIGTERM,sighandler);
 }
