@@ -1,6 +1,6 @@
-PGMNAME=PaseExample1
-ILEMOD=ZSIGM
-ILESRV=ZSIGSRV
+PGMNAME=callILENative
+ILEMOD=ZILEM
+ILESRV=ZILENAT
 LIBNAME=GAVIN
 PWD=$(shell pwd)
 #JDKHOME=../openj9-openjdk-jdk11/build/linux-x86_64-normal-server-slowdebug/jdk
@@ -17,8 +17,6 @@ ilecompile:
 	system -e "CRTCMOD MODULE(${LIBNAME}/${ILEMOD}) SRCSTMF('${PWD}/${PGMNAME}.c')"
 	system -e "CRTSRVPGM2 SRVPGM(${LIBNAME}/${ILESRV}) MODULE(${LIBNAME}/${ILEMOD}) EXPORT(*ALL) STGMDL(*SNGLVL)"
 ilerun:
-	system "JAVA CLASS(PaseExample1) CLASSPATH('${PWD}') PROP((java.library.path '/QSYS.LIB/GAVIN.LIB/'))"
-runsrvpgm:
 	${JDKHOME}/bin/java -Djava.library.path=/QSYS.LIB/${LIBNAME}.LIB/ ${PGMNAME}
 run:
 	#${JDKHOME}/bin/java -Djava.library.path=/QOpenSys/home/zhanggan/worktemp/jnipase ${PGMNAME}

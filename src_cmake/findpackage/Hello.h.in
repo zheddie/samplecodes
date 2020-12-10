@@ -1,0 +1,3 @@
+//The configured options and settings for Hello
+#define HelloV1 @Hello_VERSION_MAJOR@
+#define HelloV2 @Hello_VERSION_MINOR@

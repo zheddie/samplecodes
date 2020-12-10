@@ -78,7 +78,8 @@ public class PaseExample1 {
     static {
         System.out.println("librarypath="+System.getProperty("java.library.path"));
 //	System.load("./libPaseExample1.so");
-	System.loadLibrary("PaseExample1");
+	// System.loadLibrary("PaseExample1");  //For PASE.
+       System.loadLibrary("ZSIGSRV");		//For ILE.
 	//System.loadLibrary("libPaseExample1.so");
     }
 
