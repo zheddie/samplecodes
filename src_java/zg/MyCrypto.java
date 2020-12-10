@@ -5,6 +5,9 @@ import com.ibm.jit.*;
 
 public class MyCrypto {
 	private Crypto prvCrypto; 
+	public static void main(String argv[]){
+		System.out.println("in MyCrypto class");
+	}
 	public  MyCrypto(){
 		prvCrypto = Crypto.getCrypto();
 	}
