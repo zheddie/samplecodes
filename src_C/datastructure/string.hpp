@@ -4,7 +4,7 @@
 #include <fstream>
 #include <stdlib.h>
 #include <string.h>
-const int maxLen = 100*1000*1000;
+const int maxLen = 1000*1000;
 class String{
 public:
     String(const String & ob);
@@ -25,6 +25,7 @@ public:
     int fastFind(String & pat) const;
     void fastFindAll(String & pat) const;
     void printfailArray()const;
+    void printAll() const;
 private:
     int curLen;
     char * ch;

@@ -2,11 +2,15 @@
 #define _BIN_TREE_H
 #include <iostream>
 #include "stack.hpp"
+enum NodeState{
+    NS_NOT_ACCESSED,
+    NS_ACCESSED
+};
 template <class Type>
 class BinTreeNode{
 public:
-    BinTreeNode():data(-1),flag(0),leftChild(NULL),rightChild(NULL){};
-    BinTreeNode(Type item,BinTreeNode<Type> *left=NULL,BinTreeNode<Type> *right=NULL):data(item),flag(0),leftChild(left),rightChild(right){};
+    BinTreeNode():data(-1),flag(NS_NOT_ACCESSED),leftChild(NULL),rightChild(NULL){};
+    BinTreeNode(Type item,BinTreeNode<Type> *left=NULL,BinTreeNode<Type> *right=NULL):data(item),flag(NS_NOT_ACCESSED),leftChild(left),rightChild(right){};
     void CreateSampleTree();
     void Traverse(BinTreeNode<Type> * , std::ostream & )const;
     void TraverseStack(BinTreeNode<Type> * , std::ostream & )const;
@@ -14,7 +18,7 @@ public:
     BinTreeNode<Type> * processOneNode(Stack<BinTreeNode<Type>> *pstk, std::ostream & out);
 private:
     Type data;
-    int flag;
+    NodeState flag;   //This flag is used to indicate whether this node is accessed already.
     BinTreeNode<Type> *leftChild,*rightChild;
 };
 template <class Type> BinTreeNode<Type> * checkOneNode(BinTreeNode<Type> *current , int depth){
@@ -28,7 +32,7 @@ bool handleDepth(int *ld,int depth){
             if(abs(ld[i]-depth) >1){
                 return (false);
             }else if(ld[i]-depth == 0){
-                return(true)
+                return(true);
             }
         }else{
             ld[i] = depth;
@@ -36,7 +40,7 @@ bool handleDepth(int *ld,int depth){
     }
     return(true);
 }
-int getHeigth(BinTreeNode<Type> *current){
+template <class Type> int getHeigth(BinTreeNode<Type> *current){
     if(current == NULL) return(0);
     int ld = getHeigth(current->leftChild);
     int rd = getHeigth(current->rightChild);
@@ -67,14 +71,14 @@ template <class Type> void BinTreeNode<Type>::Traverse(BinTreeNode<Type> *curren
     }
 }
 template <class Type> BinTreeNode<Type> * BinTreeNode<Type>::processOneNode(Stack<BinTreeNode<Type> > *pstk, std::ostream & out){
-    if(this->leftChild != NULL && this->leftChild->flag != 1){
+    if(this->leftChild != NULL && this->leftChild->flag != NS_ACCESSED){
         pstk->push(this);
         return(this->leftChild);
     }
     else{
         out << this->data << ' ';
-        this->flag = 1;
-        if(this->rightChild != NULL && this->rightChild->flag != 1){
+        this->flag = NS_ACCESSED;
+        if(this->rightChild != NULL && this->rightChild->flag != NS_NOT_ACCESSED){
             return(this->rightChild);
         }else{
             return(pstk->pop());

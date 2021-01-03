@@ -1,5 +1,6 @@
-OBJ=bt
-all:
-	g++ -o ${OBJ}  main.cpp 
+
+# all: main.cpp
+# 	g++ -o ${OBJ}  main.cpp 
+#We can use "make main" instead to make the main.cpp to main.
 clean:
-	rm ${OBJ}
+	ls -l *.cpp|awk '{print $$9}'|awk -F'.' '{print $$1}'|xargs rm

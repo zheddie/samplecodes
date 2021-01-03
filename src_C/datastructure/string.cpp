@@ -101,6 +101,11 @@ int String::Find(String & pat) const{
     }
     return(-1);
 }
+void String::printAll()const{
+    if(ch){
+        cout<<ch<<endl;
+    }
+}
 void String::printfailArray()const{
     if(f){
         for(int i =0;i<curLen;i++){
