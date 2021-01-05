@@ -22,9 +22,9 @@ public:
             top = next;
         }
     }
-    void Push(const Type & item);
-    Type Pop();
-    Type GetTop();
+    void Push( Type item);
+    Type * Pop();
+    Type * GetTop();
     void MakeEmpty(){ 
         StackNode<Type>  * next = NULL;
         while (top != NULL){
@@ -35,31 +35,31 @@ public:
         }
         this->currentSize =0;
     }
-    int IsEmpty() const { return top == NULL;}
-    int IsFull() const { return false;}
+    int IsEmpty()  { return top == NULL;}
+    int IsFull()  { return false;}
 private:
     StackNode<Type> *top;
 };
 
-template <class Type> void  LinkStack<Type>::Push(const Type & item){
+template <class Type> void  LinkStack<Type>::Push( Type  item){
     StackNode<Type> * n = new StackNode<Type>(item,top);
     assert(n != NULL);
     top = n;
 }
-template <class Type> Type  LinkStack<Type>::Pop(){
+template <class Type> Type *  LinkStack<Type>::Pop(){
     if(top){
         StackNode<Type> * n = top;
         top = top->link;
-        return n->data;
+        return &(n->data);
     }else{
-        return (Type)NULL;
+        return (Type *)NULL;
     }
 }
-template <class Type> Type  LinkStack<Type>::GetTop(){
+template <class Type> Type *  LinkStack<Type>::GetTop(){
     if(top){
-        return top->data;
+        return &(top->data);
     }else{
-        return (Type)NULL;
+        return (Type *)NULL;
     }
 }
 

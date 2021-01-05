@@ -9,12 +9,12 @@ template <class Type> class ArrayStack:public StackBase<Type>{
 public:
     ArrayStack(int=10);
     ~ ArrayStack(){ delete elements;}
-    void Push(const Type & item);
-    Type Pop();
-    Type GetTop();
+    void Push( Type item);
+    Type * Pop();
+    Type * GetTop();
     void MakeEmpty(){ top = -1;this->currentSize=0;}
-    int IsEmpty() const { return top == -1;}
-    int IsFull() const { return top == maxSize - 1;}
+    int IsEmpty()  { return top == -1;}
+    int IsFull()  { return top == maxSize - 1;}
 private:
     int top;
     Type * elements;
@@ -24,19 +24,19 @@ template <class Type> ArrayStack<Type>::ArrayStack(int s):StackBase<Type>(), top
     elements = new Type[maxSize];
     assert(elements!=NULL);
 }
-template <class Type> void  ArrayStack<Type>::Push(const Type & item){
+template <class Type> void  ArrayStack<Type>::Push( Type  item){
     assert(!IsFull());
     elements[++top] = item;
     this->currentSize++;
 }
-template <class Type> Type  ArrayStack<Type>::Pop(){
-    assert(!IsEmpty());
+template <class Type> Type * ArrayStack<Type>::Pop(){
+    if (IsEmpty()) return NULL;
     this->currentSize--;
-    return elements[top--];
+    return &(elements[top--]);
 }
-template <class Type> Type  ArrayStack<Type>::GetTop(){
-    assert(!IsEmpty());
-    return elements[top];
+template <class Type> Type * ArrayStack<Type>::GetTop(){
+    if(IsEmpty()) return NULL;
+    return &(elements[top]);
 }
 
 #endif

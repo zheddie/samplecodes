@@ -10,12 +10,17 @@ public:
 template <class Type> class Derived : public Base<Type> {
    public :
     void func(int s) {
-      cout << "The value of num is: " << this->num<<",s="<<s;
-   }  
+      cout << "The value of num is: " << this->num<<",s="<<s<<endl;
+   }
 };
 
 int main() {
    Derived<int>  obj;
    obj.func(2);
+   int x = 10;
+   int s = 80;
+   int &z=x;
+   const int &y = x;
+   cout<<"x["<<&x<<"]="<<x<<",y["<<&y<<"]="<<y<<endl;
    return 0;
 }
