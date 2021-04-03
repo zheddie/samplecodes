@@ -6,6 +6,7 @@
 #include "bintree.hpp"
 #include "treeiterator.hpp"
 #include "datalistsort.hpp"
+#include "minheap.hpp"
 using namespace std;
 void test_substring(){
 //Tying to test the  substring operator
@@ -93,6 +94,33 @@ void test_sort(){
     InsertSort(*dl);
     dl->printAll();
 }
+void test_minheap(){
+    int arr[8]={2,3,8,1,6,5,7,4};
+    MinHeap<int> mh(arr,8);
+    cout<<mh<<endl;
+}
+void test_minheap2(){
+    int arr[8]={2,3,8,6,5,7,4,9};
+    MinHeap<int> mh(arr,8);
+    cout<<mh<<endl;
+    mh.Insert(1);
+    cout<<mh<<endl;
+    mh.Insert(3);
+    cout<<mh<<endl;
+    mh.Insert(1);
+    cout<<mh<<endl;
+}
+void test_minheap3(){
+    int arr[8]={2,3,8,6,5,7,4,9};
+    MinHeap<int> mh(arr,8);
+    cout<<mh<<endl;
+    mh.Insert(1);
+    cout<<mh<<endl;
+    int min = mh.RemoveMin();
+    cout<<mh<<",min:"<<min<<endl;
+    min = mh.RemoveMin();
+    cout<<mh<<",min:"<<min<<endl;
+}
 int main(int argc,char * argv[]){
     //test_substring();
     //test_kmp();
@@ -100,6 +128,9 @@ int main(int argc,char * argv[]){
     // test_linkstack();
     //test_linkstack();
     //test_bintree();
-    test_sort();
+    //test_sort();
+    //test_minheap();
+    //test_minheap2();
+    test_minheap3();
     return(0);
 }

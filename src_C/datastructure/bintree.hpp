@@ -22,8 +22,8 @@ private:
     BinTreeNode<Type> *leftChild,*rightChild;
 };
 template <class Type> class BinaryTree{
-    friend istream & operator >>(istream & in, BinaryTree<Type> & Tree);
-    friend ostream & operator <<(ostream & out,BinaryTree<Type> & Tree);
+    template <class T> friend istream & operator >>(istream & in, BinaryTree<T> & Tree);
+    template <class T> friend ostream & operator <<(ostream & out,BinaryTree<T> & Tree);
 public:
     BinaryTree():root(NULL){}
     BinaryTree(const BinTreeNode<Type> & rt):root((BinTreeNode<Type>*)&rt){}
