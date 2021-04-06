@@ -14,15 +14,13 @@ async def download_one_page(url):
     headers = {
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"
     }
+    # print("URL:"+url)
     #s=aiohttp.ClientSession() <<==>> requests
     # resp = requests.get(url,headers=headers)
     async with aiohttp.ClientSession() as session:
         async with session.get(url,headers=headers) as resp:
-            to = time.time()
-            if(to - now > 20):
-                print("TimeUsed:", (to - now))
-                time.sleep(60)
             html = etree.HTML(await resp.text())
+            print("html:",html)
             table = html.xpath("/html/body/div[2]/div[4]/div[1]/table")[0]
             trs = table.xpath("./tr")[1:]
             for tr in trs:
@@ -35,7 +33,7 @@ async def download_one_page(url):
 async def main():
     tasks=[]
     #,15211)
-    for idx in range(10000,10020):
+    for idx in range(10000,12000):
         t = asyncio.create_task(download_one_page(f"http://www.xinfadi.com.cn/marketanalysis/0/list/{idx}.shtml"))
         tasks.append(t)
     #print(tasks)
