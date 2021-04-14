@@ -23,3 +23,9 @@ summernote.dist/*
 *.onnx
 *.dat
 qpz1*
+__pycache__
+*.jpg
+*.png
+*.ts
+scrapyprojects
+*.mov
