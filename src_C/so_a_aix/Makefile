@@ -1,7 +1,9 @@
-libfunc.a: func1.o func2.o
+func.a: func1.o func2.o
 	ar -o shr.o $?
-libfunc: func1.o func2.o
+func: func1.o func2.o func3.o
 	@echo "@=$@,<=$<,^=$^,?=$?"
-	gcc -shared -o libfunc.so $?
+	gcc -shared -fPIC -fvisibility=hidden -o libfunc.so $?
 main:
-	gcc -o main -lfunc
+	gcc -o main main.c  -L. -lfunc
+clean:
+	rm *.o main libfunc.so

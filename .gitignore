@@ -29,3 +29,6 @@ __pycache__
 *.ts
 scrapyprojects
 *.mov
+*.o
+*.so
+*.a
