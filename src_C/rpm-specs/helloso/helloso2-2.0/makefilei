@@ -1,0 +1,27 @@
+
+libworld.so: world.c
+	gcc -fPIC -c world.c
+	gcc -shared -Wl,-brtl -o libworld.so.${VERSION} world.o
+	ln -s libworld.so.${VERSION} libworld.so
+libhello.so: libworld.so hello.c
+	gcc -fPIC -c hello.c
+	gcc -shared -Wl,-brtl -Wl,-blibpath:${PREFIX}/lib:/qopensys/usr/lib -o libhello.so.${VERSION} hello.o -L. -lworld
+	ln -s libhello.so.${VERSION} libhello.so
+mytest: libhello.so test.c
+	gcc -fPIC -c test.c
+	LD_LIBRARY_PATH=. gcc -Wl,-brtl -Wl,-blibpath:${PREFIX}/lib:/qopensys/usr/lib -o mytest test.o -L. -lhello
+all: libhello.so libworld.so mytest
+install: libhello.so libworld.so mytest
+	mkdir -p ${PREFIX}/lib/
+	cp libhello.so.${VERSION} ${PREFIX}/lib/
+	cp -d libhello.so ${PREFIX}/lib/
+	cp libworld.so.${VERSION} ${PREFIX}/lib/
+	cp -d libworld.so ${PREFIX}/lib/
+	mkdir -p ${PREFIX}/bin/
+	cp mytest ${PREFIX}/bin
+	mkdir -p ${PREFIX}/include/
+	cp world.h ${PREFIX}/include/
+uninstall:
+	rm  ${PREFIX}/lib/libhello.so ${PREFIX}/lib/libworld.so ${PREFIX}/bin/mytest ${PREFIX}/lib/libhello.so.${VERSION} ${PREFIX}/lib/libworld.so.${VERSION} ${PREFIX}/include/world.h
+clean:
+	rm mytest libhello.so* libworld.so* *.o
