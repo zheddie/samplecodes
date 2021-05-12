@@ -1,0 +1,4 @@
+strpgmexp pgmlvl(*current)
+export    symbol('func11')
+export    symbol('func12')
+endpgmexp

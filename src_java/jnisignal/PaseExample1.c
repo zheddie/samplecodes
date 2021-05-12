@@ -18,8 +18,9 @@
 #ifdef LINUX
 #include <sys/syscall.h>
 #define GETTID syscall(SYS_gettid)
-#endif
-#ifdef AIXPPC
+// #endif
+// #ifdef AIXPPC
+#else
 #include <pthread.h>
 #define GETTID pthread_self()
 #endif
@@ -37,23 +38,27 @@ int main(){
 
 }
 
-/*
+/*	
  * Class:     PaseExample1
  * Method:    getStringNative
  * Signature: ()Ljava/lang/String;
  */
 JNIEXPORT jstring JNICALL Java_PaseExample1_getStringNative(JNIEnv* env, jobject obj) {
+   
+   printf("in Java_PaseExample1_getStringNative.getpid=%d\n",getpid());
    gEnv=env;
+#pragma convert(819)
    char* methodName = "getStringCallback";
    char* methodSig = "()Ljava/lang/String;";
-   printf("SIGTERM register.1\n");
+#pragma convert(0)
+   printf("SIGTERM register.1.getpid=%d\n",getpid());
    signal(SIGTERM, sighandler);
    printf("SIGTERM register.2\n");
 //unsigned long *pinNative = (unsigned long *)((char *) env + 2360);
 //unsigned long *pprivateflags = (unsigned long *)((char *) env +424);
    unsigned long *pinNative = (unsigned long *)((char *) env + 1376);
    unsigned long *pprivateflags = (unsigned long *)((char *) env +220);
-   printf("in JNI[tid:%ld]: inNative=%lu,privateflags=%lu\n",GETTID,*pinNative,*pprivateflags);
+   printf("in JNI1[tid:%ld]: inNative=%lu,privateflags=%lu\n",GETTID,*pinNative,*pprivateflags);
    printf("\n");
 /*
 	J9VMThread *currentThread = (J9VMThread *)env;
@@ -69,26 +74,29 @@ JNIEXPORT jstring JNICALL Java_PaseExample1_getStringNative(JNIEnv* env, jobject
 	printf("+\n");
 	}
    jclass clazz = (*env)->GetObjectClass(env, obj); 
-   printf("in JNI: inNative=%lu\n",*pinNative);
+   printf("in JNI2: inNative=%lu\n",*pinNative);
    jmethodID methodID = (*env)->GetMethodID(env, clazz, methodName, methodSig);
-   printf("in JNI: inNative=%lu\n",*pinNative);
+   printf("in JNI3: inNative=%lu\n",*pinNative);
    jstring rt = (*env)->CallObjectMethod(env, obj, methodID);
-   printf("in JNI: inNative=%lu\n",*pinNative);
+   printf("in JNI4: inNative=%lu\n",*pinNative);
    return (rt);
 }
 void sighandlermain(int s){
 	printf("Drop in sighandler.input=%d\n",s);
 	sleep(3);
 	printf("returned from sighandler after 3 seconds\n");
+	signal(SIGTERM,sighandlermain);
 }
 void sighandler(int s){
 	printf("Drop in sighandler.input=%d\n",s);
-    unsigned long *pinNative = (unsigned long *)((char *) gEnv + 2360);
-   	unsigned long *pprivateflags = (unsigned long *)((char *) gEnv +424);
-	
+    // unsigned long *pinNative = (unsigned long *)((char *) gEnv + 2360);
+   	// unsigned long *pprivateflags = (unsigned long *)((char *) gEnv +424);
+ 	unsigned long *pinNative = (unsigned long *)((char *) gEnv + 1376);
+   	unsigned long *pprivateflags = (unsigned long *)((char *) gEnv +220);	
    	printf("in sighandler[tid:%ld]: inNative=%lu,privateflags=%lu\n",GETTID,*pinNative,*pprivateflags);
 	*pinNative = 1L;
    	printf("in sighandler[tid:%ld]: inNative=%lu,privateflags=%lu\n",GETTID,*pinNative,*pprivateflags);
 	sleep(3);
 	printf("returned from sighandler after 3 seconds\n");
+	signal(SIGTERM,sighandler);
 }

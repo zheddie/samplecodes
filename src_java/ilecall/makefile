@@ -1,6 +1,6 @@
-PGMNAME=PaseExample1
-ILEMOD=ZSIGM
-ILESRV=ZSIGSRV
+PGMNAME=callILENative
+ILEMOD=ZILEM
+ILESRV=ZILENAT
 LIBNAME=GAVIN
 PWD=$(shell pwd)
 #JDKHOME=../openj9-openjdk-jdk11/build/linux-x86_64-normal-server-slowdebug/jdk
@@ -15,7 +15,7 @@ link:
 	${XLC_CMD}  -q${OMODE} -qmkshrobj -o lib${PGMNAME}.so -lpthread ${PGMNAME}.o
 ilecompile:
 	system -e "CRTCMOD MODULE(${LIBNAME}/${ILEMOD}) SRCSTMF('${PWD}/${PGMNAME}.c')"
-	system -e "CRTSRVPGM2 SRVPGM(${LIBNAME}/${ILESRV}) MODULE(${LIBNAME}/${ILEMOD}) EXPORT(*ALL) STGMDL(*SNGLVL)"
+	system -e "CRTSRVPGM2 SRVPGM(${LIBNAME}/${ILESRV}) MODULE(GAVIN/${ILEMOD}) EXPORT(*ALL) STGMDL(*SNGLVL)"
 ilerun:
 	${JDKHOME}/bin/java -Djava.library.path=/QSYS.LIB/${LIBNAME}.LIB/ ${PGMNAME}
 run:
