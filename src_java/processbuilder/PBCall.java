@@ -10,10 +10,10 @@ public class PBCall{
         System.out.println("cmd is:"+ JAVA_LAUNCHER);
 
         ProcessBuilder pb;
-        if(args.length>0){
-        	pb = new ProcessBuilder(JAVA_LAUNCHER,"-cp",".",args[0]);
-        }else if(args.length>1){
+        if(args.length>1){
         	pb = new ProcessBuilder(JAVA_LAUNCHER,"-cp",".",args[0],args[1]);
+        }else if(args.length>0){
+        	pb = new ProcessBuilder(JAVA_LAUNCHER,"-cp",".",args[0]);
         }else{
         	pb = new ProcessBuilder(JAVA_LAUNCHER);
         }

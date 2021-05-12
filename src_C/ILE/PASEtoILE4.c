@@ -12,6 +12,9 @@
 #include <stdio.h>
 #include "as400_types.h"
 #include "as400_protos.h"
+<<<<<<< HEAD
+ 
+=======
 
 typedef union _zgILEpointer {
 #if !(defined(_AIX) || defined(KERNEL))
@@ -29,6 +32,7 @@ typedef union _zgILEpointer {
     } s;
 } zgILEpointer;
 
+>>>>>>> bde6ccb09f6a1ce4062c72e3ed06ec0e3230d790
 /*
  * init_pid saves the process id (PID) of the process that
  * extracted the ILEpointer addressed by ILEtarget.

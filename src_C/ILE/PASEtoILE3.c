@@ -36,6 +36,9 @@ ILEpointer*ILEtarget;  /* pointer to ILE procedure */
  */
  
 #define ROUND_QUAD(x) (((size_t)(x) + 0xf) & ~0xf)
+<<<<<<< HEAD
+ 
+=======
 
 void do_init()
 {
@@ -80,13 +83,18 @@ void do_init()
    printf("zg.do_init().cp3");
 }
 
+>>>>>>> bde6ccb09f6a1ce4062c72e3ed06ec0e3230d790
 /*
  * do_init loads an ILE service program and extracts an
  * ILEpointer to a procedure that is exported by that
  * service program.
  */
  
+<<<<<<< HEAD
+void do_init()
+=======
 void do_init_orig()
+>>>>>>> bde6ccb09f6a1ce4062c72e3ed06ec0e3230d790
 {
    static char ILEtarget_buf[sizeof(ILEpointer) + 15];
    unsigned long long actmark;
@@ -169,7 +177,10 @@ int simple_wrapper(int arg1, void *arg2, double arg3,
                    char arg4, aggregate arg5, short arg6)
 {
     int result;
+<<<<<<< HEAD
+=======
     printf("zg.simple_wrapper().cp0\n");
+>>>>>>> bde6ccb09f6a1ce4062c72e3ed06ec0e3230d790
     /*
      * xlc does not guarantee 16-byte alignment for
      * automatic (stack) variables of any type, but
@@ -186,7 +197,11 @@ int simple_wrapper(int arg1, void *arg2, double arg3,
      * array.
      */
     build_ILEarglist(ILEarglist, &arg1, signature);
+<<<<<<< HEAD
+ 
+=======
   printf("zg.simple_wrapper().cp1\n");
+>>>>>>> bde6ccb09f6a1ce4062c72e3ed06ec0e3230d790
     /*
      * Use a saved PID value to check if the ILEpointer
      * is set. ILE procedure pointers inherited by the
@@ -196,14 +211,21 @@ int simple_wrapper(int arg1, void *arg2, double arg3,
      */
     if (getpid() != init_pid)
       do_init();
+<<<<<<< HEAD
+ 
+=======
   printf("zg.simple_wrapper().cp2\n");
+>>>>>>> bde6ccb09f6a1ce4062c72e3ed06ec0e3230d790
     /*
      * _ILECALL calls the ILE procedure. If an exception or signal
      * occurs, the heap allocation is orphaned (storage leak)
      */
     _ILECALL(ILEtarget, ILEarglist, signature, result_type);
     result = ILEarglist->result.s_int32.r_int32;
+<<<<<<< HEAD
+=======
     printf("zg.simple_wrapper().cp3\n");
+>>>>>>> bde6ccb09f6a1ce4062c72e3ed06ec0e3230d790
     if (result == 1) {
       printf("The results of the simple wrapper is: %s\n", (char *)arg2);
     }
@@ -212,7 +234,10 @@ int simple_wrapper(int arg1, void *arg2, double arg3,
     else 
       printf("The db file never opened.\n");
     free(ILEarglist);
+<<<<<<< HEAD
+=======
     printf("zg.simple_wrapper().cp9\n");
+>>>>>>> bde6ccb09f6a1ce4062c72e3ed06ec0e3230d790
     return result;
 }
  
@@ -252,7 +277,10 @@ int best_wrapper(int arg1, void *arg2, double arg3,
      * automatic (stack) variables of any type, so we
      * find an aligned area in an oversized buffer
      */
+<<<<<<< HEAD
+=======
   printf("zg.best_wrapper().cp0\n");
+>>>>>>> bde6ccb09f6a1ce4062c72e3ed06ec0e3230d790
     char ILEarglist_buf[sizeof(ILEarglistSt) + 15];
     ILEarglistSt *ILEarglist = (ILEarglistSt*)ROUND_QUAD(ILEarglist_buf);
     /*
@@ -274,21 +302,30 @@ int best_wrapper(int arg1, void *arg2, double arg3,
      */
     if (getpid() != init_pid)
       do_init();
+<<<<<<< HEAD
+=======
     printf("zg.best_wrapper().cp1\n");
+>>>>>>> bde6ccb09f6a1ce4062c72e3ed06ec0e3230d790
     /*
      * _ILECALL calls the ILE procedure. The stack may 
      * be unwound, but no heap storage is orphaned if
      * an exception or signal occurs
      */
     _ILECALL(ILEtarget, &ILEarglist->base, signature, result_type);
+<<<<<<< HEAD
+=======
     printf("zg.best_wrapper().cp2\n");
+>>>>>>> bde6ccb09f6a1ce4062c72e3ed06ec0e3230d790
     if (ILEarglist->base.result.s_int32.r_int32 == 1)
       printf("The results of best_wrapper function is: %s\n", arg2);
     else if ( ILEarglist->base.result.s_int32.r_int32 == 0)
       printf("ILE received other than 1 or 2 for version.\n");
     else 
       printf("The db file never opened.\n");
+<<<<<<< HEAD
+=======
     printf("zg.best_wrapper().cp9\n");
+>>>>>>> bde6ccb09f6a1ce4062c72e3ed06ec0e3230d790
     return ILEarglist->base.result.s_int32.r_int32;
     }
 
@@ -300,6 +337,17 @@ void main () {
       short shrtNumber = 3;
       aggregate agg;
       strcpy( dbText, "none" );
+<<<<<<< HEAD
+ 
+      for (version =1; version <=  1; version++) 
+      {
+        if (version == 1) { 
+          result2= simple_wrapper(version, dbText, dblNumber, justChar, agg, shrtNumber); 
+        } else { 
+          result2= best_wrapper(1, dbText, dblNumber, justChar, agg, shrtNumber); 
+        } 
+      } 
+=======
       printf("zg.main().cp0\n");
       for (version =1; version <=  1; version++) 
       {
@@ -312,4 +360,5 @@ void main () {
         } 
       }
       printf("zg.main().cp9\n");
+>>>>>>> bde6ccb09f6a1ce4062c72e3ed06ec0e3230d790
 }

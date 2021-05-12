@@ -1,0 +1,34 @@
+.vscode
+.vscode/*
+.DS_Store
+#For java
+*.class
+core.*
+javacore.*
+out
+out/*
+*.iml
+.idea
+.idea/*
+#For node.js
+node_modules
+node_modules/*
+package-lock.json
+#Some special files
+summernote.dist
+summernote.dist/*
+.ipynb_checkpoints
+.ipynb_checkpoints/*
+*.pht
+*.onnx
+*.dat
+qpz1*
+__pycache__
+*.jpg
+*.png
+*.ts
+scrapyprojects
+*.mov
+*.o
+*.so
+*.a

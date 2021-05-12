@@ -1,0 +1,12 @@
+Unzip this archive in a folder on your computer. Then, navigate to it in a terminal and run this command:
+
+npm install
+
+This will create the node_modules folder and will download all the libraries that are required by our app.
+
+Check out the tutorial for more info: 
+http://tutorialzine.com/2015/03/npm-driven-website/
+
+Have fun!
+
+Team Tutorialzine

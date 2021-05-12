@@ -1,0 +1,17 @@
+{
+  "name": "mypkg1",
+  "version": "1.0.0",
+  "description": "my npm package sample.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootswatch": "^4.6.0",
+    "gmaps": "^0.4.25",
+    "jquery": "^3.5.1",
+    "moment": "^2.29.1"
+  }
+}

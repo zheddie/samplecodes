@@ -15,7 +15,7 @@ link:
 	${XLC_CMD}  -q${OMODE} -qmkshrobj -o lib${PGMNAME}.so -lpthread ${PGMNAME}.o
 ilecompile:
 	system -e "CRTCMOD MODULE(${LIBNAME}/${ILEMOD}) SRCSTMF('${PWD}/${PGMNAME}.c')"
-	system -e "CRTSRVPGM2 SRVPGM(${LIBNAME}/${ILESRV}) MODULE(GAVIN/${ILEMOD}) EXPORT(*ALL) STGMDL(*SNGLVL)"
+	system -e "CRTSRVPGM2 SRVPGM(${LIBNAME}/${ILESRV}) MODULE(${LIBNAME}/${ILEMOD}) EXPORT(*ALL) STGMDL(*SNGLVL)"
 ilerun:
 	${JDKHOME}/bin/java -Djava.library.path=/QSYS.LIB/${LIBNAME}.LIB/ ${PGMNAME}
 run:
