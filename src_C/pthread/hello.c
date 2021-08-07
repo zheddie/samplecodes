@@ -21,6 +21,7 @@ void *PrintHello(void *threadid)
 
 int main(int argc, char *argv[])
 {
+  printf("__multi_threaded:%d\n",__multi_threaded);
    pthread_t threads[NUM_THREADS];
    int rc;
    long t;

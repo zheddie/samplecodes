@@ -1,0 +1,10 @@
+all:func1 main
+func1: func1.cpp
+	xlC -fPIC -std=c++11 ${ZOPTS} -o func1.o -c func1.cpp
+	xlC  -fPIC -Wl,-brtl,-blibpath:/QOpenSys/pkgs/lib/ -Wl,-init,callfunc -std=c++11 -shared -o libfunc1.so  func1.o
+main: func1 main.c
+	xlC -g -o soinit main.c -ldl
+mainthread: func1 mainthread.c
+	xlC -g -o soinitthr mainthread.c -ldl
+clean:
+	rm -rf soinit *.o libfunc1.so
