@@ -1,0 +1,5 @@
+strpgmexp pgmlvl(*current) lvlchk(*yes) signature('BR549')
+export    symbol('func22')
+export    symbol('func23')
+export    symbol('func24')
+endpgmexp

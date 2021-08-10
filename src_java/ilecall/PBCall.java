@@ -8,15 +8,7 @@ public class PBCall{
 	public static void main(String [] args){
 		String JAVA_LAUNCHER = Paths.get(System.getProperty("java.home")).resolve("bin").resolve("java").toString();
         System.out.println("cmd is:"+ JAVA_LAUNCHER);
-
-        ProcessBuilder pb;
-        if(args.length>1){
-        	pb = new ProcessBuilder(JAVA_LAUNCHER,"-cp",".",args[0],args[1]);
-        }else if(args.length>0){
-        	pb = new ProcessBuilder(JAVA_LAUNCHER,"-cp",".",args[0]);
-        }else{
-        	pb = new ProcessBuilder(JAVA_LAUNCHER);
-        }
+        ProcessBuilder pb=new ProcessBuilder(JAVA_LAUNCHER+" "+args[0]);
         //pb.directory(new File("thisWorkingDirectoryDoesNotExists_111222333"));
         try{
         	Process process = pb.start();
