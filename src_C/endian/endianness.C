@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string>
+#include <string.h>
 #define VAL 0x0A0B0C0D
 
 int main(){

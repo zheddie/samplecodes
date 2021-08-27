@@ -20,17 +20,6 @@ public class ThreadTest {
 
     public static void main(String[] args) {
 
-         //ThreadPoolExecutor(int corePoolSize, int maximumPoolSize,long keepAliveTime, TimeUnit unit,
-         //                   BlockingQueue<Runnable> workQueue,RejectedExecutionHandler handler)
-
-
-      //ExecutorService threadpool =  Executors.newFixedThreadPool(threadNum*2);
-
-        //for (int i = 1; i < threadNum; i++) {
-       //     threadpool.execute(new Dumper("Dumper - " +i));
-       //     threadpool.execute(new Connector("Connector - " +i));
-        //}
-        //threadpool.shutdown();
     	generate();
 
     }
