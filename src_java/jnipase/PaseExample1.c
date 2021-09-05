@@ -24,6 +24,13 @@ void sighandler(int);
  * Signature: ()Ljava/lang/String;
  */
 JNIEXPORT jstring JNICALL Java_PaseExample1_getStringNative(JNIEnv* env, jobject obj) {
+/*
+* if we want to crash the JVM, following code could do help
+
+int * pp = NULL;
+*pp = 21;
+
+*/
    gEnv=env;
    char* methodName = "getStringCallback";
    char* methodSig = "()Ljava/lang/String;";
