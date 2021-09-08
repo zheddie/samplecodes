@@ -52,19 +52,16 @@ MMA (int m, int n, int k, double *A, double *B, double *C)
   v2sf_t result[8];
   //v4sf_t *rowC;
   v2sf_t *prowC ;
-  double *BO;
-        double *CO;
+  for (int l = 0; l < n; l += 4)
+    {
+      double *CO;
       double *AO;
       AO = A;
       CO = C;
-	  BO = B;
-    //   C += m * 4;
-  for (int l = 0; l < n; l += 4)
-    {
-	  CO = C+l;	
+      C += m * 4;
       for (int j = 0; j < m; j += 16)
 	{
-	  
+	  double *BO = B;
 	  __builtin_mma_xxsetaccz (&acc0);
 	  __builtin_mma_xxsetaccz (&acc1);
 	  __builtin_mma_xxsetaccz (&acc2);
@@ -77,10 +74,10 @@ MMA (int m, int n, int k, double *A, double *B, double *C)
 
 	  for (i = 0; i < k; i++)
 	    {			
-		vec_t *rowA = (vec_t *) & AO[i * m+j];
+		vec_t *rowA = (vec_t *) & AO[i * 16];
 		__vector_pair rowB;
-		vec_t *rb = (vec_t *) & BO[i * n+l];
-		//   __builtin_mma_assemble_pair (&rowB, rb[1], rb[0]);
+		vec_t *rb = (vec_t *) & BO[i * 4];
+	    //   __builtin_mma_assemble_pair (&rowB, rb[1], rb[0]);
 		__builtin_mma_assemble_pair (&rowB, rb[0], rb[1]);
 	      __builtin_mma_xvf64gerpp (&acc1, rowB, rowA[1]);
 	      __builtin_mma_xvf64gerpp (&acc0, rowB, rowA[0]);
@@ -100,12 +97,11 @@ MMA (int m, int n, int k, double *A, double *B, double *C)
 	  SAVE_ACC (&acc5, n,10*n);
 	  SAVE_ACC (&acc6, n,12*n);
 	  SAVE_ACC (&acc7, n,14*n);
-	//   AO += k * 16;
-	//   BO += k * 4;
-	  CO += n*16;
+	  AO += k * 16;
+	  BO += k * 4;
+	  CO += 16;
 	}
-    //   B += k * 4;
-	
+      B += k * 4;
     }
 }
 

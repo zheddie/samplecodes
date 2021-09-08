@@ -65,26 +65,32 @@
 .set TO_LT,16; .set TO_GT,8; .set TO_EQ,4; .set TO_LLT,2; .set TO_LGT,1
 
 	.rename	H.4.NO_SYMBOL{PR},""
-	.rename	H.12.func1{TC},"func1"
+	.rename	H.12.main{TC},"main"
 
 	.lglobl	H.4.NO_SYMBOL{PR}       
-	.globl	.func1                  
-	.globl	func1{DS}               
+	.globl	.main                   
+	.globl	main{DS}                
+	.extern	.func1{PR}              
 
 
 # .text section
-	.file	"func1.c"               
+	.file	"main.c"                
 	.machine	"ppc64"
 
 
 	.csect	H.4.NO_SYMBOL{PR}, 7    
-.func1:                                 # 0x0000000000000000 (H.4.NO_SYMBOL)
-	stdu       SP,-112(SP)
-	std        r3,160(SP)
-	ld         r3,160(SP)
-	stw        r3,160(SP)
-	lwa        r3,160(SP)
-	addi       SP,SP,112
+.main:                                  # 0x0000000000000000 (H.4.NO_SYMBOL)
+	mfspr      r0,LR
+	stdu       SP,-128(SP)
+	std        r0,144(SP)
+	addi       r3,r0,2021
+	bl         .func1{PR}
+	ori        r0,r0,0x0000
+	stw        r3,112(SP)
+	lwa        r3,112(SP)
+	ld         r0,144(SP)
+	mtspr      LR,r0
+	addi       SP,SP,128
 	bclr       BO_ALWAYS,CR0_LT
 	.long	0x00000000
 # traceback table
@@ -93,24 +99,20 @@
 	.byte	0x20			# IS_GL=0,IS_EPROL=0,HAS_TBOFF=1
 					# INT_PROC=0,HAS_CTL=0,TOCLESS=0
 					# FP_PRESENT=0,LOG_ABORT=0
-	.byte	0x40			# INT_HNDL=0,NAME_PRESENT=1
+	.byte	0x41			# INT_HNDL=0,NAME_PRESENT=1
 					# USES_ALLOCA=0,CL_DIS_INV=WALK_ONCOND
-					# SAVES_CR=0,SAVES_LR=0
+					# SAVES_CR=0,SAVES_LR=1
 	.byte	0x80			# STORES_BC=1,FPR_SAVED=0
 	.byte	0x00			# GPR_SAVED=0
-	.byte	0x01			# FIXEDPARMS=1
+	.byte	0x00			# FIXEDPARMS=0
 	.byte	0x01			# FLOATPARMS=0,PARMSONSTK=1
-	.long	0x00000000		# 
-	.long	0x0000001c		# TB_OFFSET
-	.short	5			# NAME_LEN
-	.byte	"func1"                 # NAME
+	.long	0x00000030		# TB_OFFSET
+	.short	4			# NAME_LEN
+	.byte	"main"                  # NAME
 
 	.byte	0			# padding
+	.byte	0			# padding
 # End of traceback table
-	.long	0x00000000              # "\0\0\0\0"
-	.long	0x00000000              # "\0\0\0\0"
-	.long	0x00000000              # "\0\0\0\0"
-	.long	0x00000000              # "\0\0\0\0"
 	.long	0x00000000              # "\0\0\0\0"
 	.long	0x00000000              # "\0\0\0\0"
 	.long	0x00000000              # "\0\0\0\0"
@@ -131,16 +133,16 @@
 
 
 	.toc	                        # 0x0000000000000080 
-T.12.func1:
-	.tc	H.12.func1{TC},func1{DS}
+T.12.main:
+	.tc	H.12.main{TC},main{DS}  
 
 
-	.csect	func1{DS}, 3            
-	.llong	.func1                  # "\0\0\0\0\0\0\0\0"
+	.csect	main{DS}, 3             
+	.llong	.main                   # "\0\0\0\0\0\0\0\0"
 	.llong	TOC{TC0}                # "\0\0\0\0\0\0\0\200"
 	.long	0x00000000              # "\0\0\0\0"
 	.long	0x00000000              # "\0\0\0\0"
-# End	csect	func1{DS}
+# End	csect	main{DS}
 
 
 
