@@ -2,13 +2,14 @@ import java.util.zip.*;
 import java.util.Enumeration;
 import java.util.*;
 import java.io.*;
-  
+import java.nio.charset.Charset;
+
 public class solution {
     public static void main(String args[])
     {
         try {
             // Create a Zip File
-            ZipFile zip_file = new ZipFile("./file.zip");
+            ZipFile zip_file = new ZipFile("./file.zip",Charset.forName("utf8"));
   
             // get the Zip Entry using
             // the getEntry() function
